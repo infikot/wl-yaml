@@ -1,5 +1,18 @@
 proxies:
-- name: '🇬🇧 United Kingdom — #52'
+- name: '🇳🇱 The Netherlands — #393'
+  type: 'vless'
+  server: '185.242.19.251'
+  port: 80
+  uuid: 'd687aa3d-0426-417e-8444-0ffe24c4496a'
+  udp: true
+  skip-cert-verify: true
+  network: 'ws'
+  tls: false
+  ws-opts:
+    path: '/static'
+    headers:
+      Host: 'top1847871446.mwscdn.ru'
+- name: '🇬🇧 United Kingdom — #86'
   type: 'vless'
   server: '37.139.43.57'
   port: 443
@@ -13,20 +26,95 @@ proxies:
   client-fingerprint: 'chrome'
   reality-opts:
     public-key: 'RiSs_VVhep71TZU8buuMedhJ9wenvWJ2sSp8HfaYnGw'
-- name: '🇳🇱 The Netherlands — #197'
+- name: '🇵🇱 Poland — #349'
   type: 'vless'
-  server: '185.242.19.251'
-  port: 80
-  uuid: '4e783039-6260-4107-9a11-2ab7dc18ded8'
+  server: '84.201.162.110'
+  port: 4443
+  uuid: '8aa2852d-9b6a-43c7-bbf8-2caeb65a220b'
   udp: true
   skip-cert-verify: true
-  network: 'ws'
-  tls: false
-  ws-opts:
-    path: '/static'
-    headers:
-      Host: 'top1847871446.mwscdn.ru'
-- name: '🇷🇺 4vps.su — #13'
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg'
+    short-id: 'e67fb918ed6b9ffb'
+- name: '🇵🇱 Poland — #350'
+  type: 'vless'
+  server: '84.201.162.110'
+  port: 4443
+  uuid: '8aa2852d-9b6a-43c7-bbf8-2caeb65a220b'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg'
+    short-id: '844352756c1fabba'
+- name: '🇵🇱 Poland — #351'
+  type: 'vless'
+  server: '84.201.162.110'
+  port: 443
+  uuid: '8aa2852d-9b6a-43c7-bbf8-2caeb65a220b'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'avatars.mds.yandex.net'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg'
+    short-id: '844352756c1fabba'
+- name: '🇸🇪 Sweden — #379'
+  type: 'vless'
+  server: '84.201.162.110'
+  port: 5443
+  uuid: '8aa2852d-9b6a-43c7-bbf8-2caeb65a220b'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg'
+    short-id: '844352756c1fabba'
+- name: '🇬🇧 United Kingdom — #90'
+  type: 'vless'
+  server: '37.139.43.57'
+  port: 443
+  uuid: '22376ab1-c0d0-4af6-a46d-66489c4502c2'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'eh.vk.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'RiSs_VVhep71TZU8buuMedhJ9wenvWJ2sSp8HfaYnGw'
+- name: '🇷🇺 4vps.su — #12'
+  type: 'vless'
+  server: '158.160.250.45'
+  port: 443
+  uuid: 'b6083a84-80a5-3e88-9dbb-5c8ef241be3a'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  tls: true
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'mDtiIWLFPJoPVrDLOCvKn6lvlS8r0TdRO9MxmmdIDmo'
+    short-id: '917fd5a45e8840'
+- name: '🇷🇺 GIR SER — #9'
   type: 'vless'
   server: '84.201.187.42'
   port: 443
@@ -40,34 +128,34 @@ proxies:
   reality-opts:
     public-key: '8zVjmI0JrsjZBlImD8TbPAb_de26b_YKRARmp-T_eH4'
     short-id: '6b26829083'
-- name: '🇷🇺 GIR SER — #30'
+- name: '🇷🇺 GIR SER — #29'
   type: 'vless'
-  server: '178.154.243.251'
+  server: '84.201.187.42'
   port: 443
-  uuid: 'bd6acaa8-4579-3d31-9bcb-0dae59f756e9'
+  uuid: 'b6083a84-80a5-3e88-9dbb-5c8ef241be3a'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   tls: true
-  servername: 'www.google.com'
-  client-fingerprint: 'random'
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'JkiFzvTq6FFDb44V8ifby6-P7QZo7Z1B5VOrGTgAQEY'
-    short-id: 'a1e1a7'
-- name: '🇷🇺 GIR SER — #15'
+    public-key: '8zVjmI0JrsjZBlImD8TbPAb_de26b_YKRARmp-T_eH4'
+    short-id: '6b26829083'
+- name: '🇷🇺 GIR SER — #19'
   type: 'vless'
-  server: '178.154.243.251'
+  server: '158.160.250.45'
   port: 443
-  uuid: 'bd6acaa8-4579-3d31-9bcb-0dae59f756e9'
+  uuid: 'b6083a84-80a5-3e88-9dbb-5c8ef241be3a'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   tls: true
-  servername: 'www.google.com'
-  client-fingerprint: 'random'
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'JkiFzvTq6FFDb44V8ifby6-P7QZo7Z1B5VOrGTgAQEY'
-    short-id: 'a1e1a7'
+    public-key: 'mDtiIWLFPJoPVrDLOCvKn6lvlS8r0TdRO9MxmmdIDmo'
+    short-id: '917fd5a45e8840'
 - name: '🇷🇺 GIR SER — #16'
   type: 'vless'
   server: '158.160.250.45'
@@ -82,25 +170,26 @@ proxies:
   reality-opts:
     public-key: 'mDtiIWLFPJoPVrDLOCvKn6lvlS8r0TdRO9MxmmdIDmo'
     short-id: '917fd5a45e8840'
-- name: '🇷🇺 GIR SER — #17'
+- name: '🇷🇺 GIR SER — #18'
   type: 'vless'
-  server: '178.154.243.251'
+  server: '158.160.250.45'
   port: 443
-  uuid: 'bd6acaa8-4579-3d31-9bcb-0dae59f756e9'
+  uuid: 'b6083a84-80a5-3e88-9dbb-5c8ef241be3a'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   tls: true
-  servername: 'www.google.com'
-  client-fingerprint: 'random'
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'JkiFzvTq6FFDb44V8ifby6-P7QZo7Z1B5VOrGTgAQEY'
-    short-id: 'a1e1a7'
-- name: '🇹🇷 Türkiye — #450'
+    public-key: 'mDtiIWLFPJoPVrDLOCvKn6lvlS8r0TdRO9MxmmdIDmo'
+    short-id: '917fd5a45e8840'
+    spider-x: '/'
+- name: '🇹🇷 Türkiye — #513'
   type: 'vless'
   server: '185.242.19.251'
   port: 80
-  uuid: '8b1d4a76-3dd4-4ba1-8526-8a1c5c806d02'
+  uuid: 'd687aa3d-0426-417e-8444-0ffe24c4496a'
   udp: true
   skip-cert-verify: true
   network: 'ws'
