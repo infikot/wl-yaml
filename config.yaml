@@ -1,32 +1,43 @@
 proxies:
-- name: '🇷🇺 GIR SER — #30'
+- name: '🇳🇱 The Netherlands — #419'
   type: 'vless'
-  server: '178.154.243.251'
-  port: 443
-  uuid: 'bd6acaa8-4579-3d31-9bcb-0dae59f756e9'
+  server: '185.242.19.251'
+  port: 80
+  uuid: '7dd3a3eb-71fc-447e-a0d8-ea5e9acacb76'
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'www.google.com'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'JkiFzvTq6FFDb44V8ifby6-P7QZo7Z1B5VOrGTgAQEY'
-    short-id: 'a1e1a7'
-- name: '🇷🇺 GIR SER — #15'
+  network: 'ws'
+  tls: false
+  ws-opts:
+    path: '/static'
+    headers:
+      Host: 'top1847871446.mwscdn.ru'
+- name: '🇫🇮 Finland — #219'
   type: 'vless'
-  server: '178.154.243.251'
-  port: 443
-  uuid: 'bd6acaa8-4579-3d31-9bcb-0dae59f756e9'
+  server: '185.242.19.252'
+  port: 80
+  uuid: '7dd3a3eb-71fc-447e-a0d8-ea5e9acacb76'
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'www.google.com'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'JkiFzvTq6FFDb44V8ifby6-P7QZo7Z1B5VOrGTgAQEY'
-    short-id: 'a1e1a7'
+  network: 'ws'
+  tls: false
+  ws-opts:
+    path: '/static'
+    headers:
+      Host: 'top2019950683.mwscdn.ru'
+- name: '🇹🇷 Türkiye — #583'
+  type: 'vless'
+  server: '185.242.19.252'
+  port: 80
+  uuid: '7dd3a3eb-71fc-447e-a0d8-ea5e9acacb76'
+  udp: true
+  skip-cert-verify: true
+  network: 'ws'
+  tls: false
+  ws-opts:
+    path: '/static'
+    headers:
+      Host: 'top3491497032.mwscdn.ru'
 - name: '🇷🇺 GIR SER — #16'
   type: 'vless'
   server: '158.160.250.45'
@@ -41,17 +52,3 @@ proxies:
   reality-opts:
     public-key: 'mDtiIWLFPJoPVrDLOCvKn6lvlS8r0TdRO9MxmmdIDmo'
     short-id: '917fd5a45e8840'
-- name: '🇷🇺 GIR SER — #17'
-  type: 'vless'
-  server: '178.154.243.251'
-  port: 443
-  uuid: 'bd6acaa8-4579-3d31-9bcb-0dae59f756e9'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'www.google.com'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'JkiFzvTq6FFDb44V8ifby6-P7QZo7Z1B5VOrGTgAQEY'
-    short-id: 'a1e1a7'
