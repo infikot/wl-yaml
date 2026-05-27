@@ -1,9 +1,9 @@
 proxies:
-- name: '🇳🇱 The Netherlands — #419'
+- name: '🇳🇱 The Netherlands — #402'
   type: 'vless'
   server: '185.242.19.251'
   port: 80
-  uuid: '7dd3a3eb-71fc-447e-a0d8-ea5e9acacb76'
+  uuid: 'f6976831-67e2-4a93-9bb4-924d96da1f69'
   udp: true
   skip-cert-verify: true
   network: 'ws'
@@ -12,24 +12,11 @@ proxies:
     path: '/static'
     headers:
       Host: 'top1847871446.mwscdn.ru'
-- name: '🇫🇮 Finland — #219'
+- name: '🇹🇷 Türkiye — #535'
   type: 'vless'
   server: '185.242.19.252'
   port: 80
-  uuid: '7dd3a3eb-71fc-447e-a0d8-ea5e9acacb76'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
-  tls: false
-  ws-opts:
-    path: '/static'
-    headers:
-      Host: 'top2019950683.mwscdn.ru'
-- name: '🇹🇷 Türkiye — #583'
-  type: 'vless'
-  server: '185.242.19.252'
-  port: 80
-  uuid: '7dd3a3eb-71fc-447e-a0d8-ea5e9acacb76'
+  uuid: 'f6976831-67e2-4a93-9bb4-924d96da1f69'
   udp: true
   skip-cert-verify: true
   network: 'ws'
@@ -38,17 +25,16 @@ proxies:
     path: '/static'
     headers:
       Host: 'top3491497032.mwscdn.ru'
-- name: '🇷🇺 GIR SER — #16'
+- name: '🇫🇮 Finland — #220'
   type: 'vless'
-  server: '158.160.250.45'
-  port: 443
-  uuid: 'b6083a84-80a5-3e88-9dbb-5c8ef241be3a'
+  server: '185.242.19.252'
+  port: 80
+  uuid: 'f6976831-67e2-4a93-9bb4-924d96da1f69'
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'mDtiIWLFPJoPVrDLOCvKn6lvlS8r0TdRO9MxmmdIDmo'
-    short-id: '917fd5a45e8840'
+  network: 'ws'
+  tls: false
+  ws-opts:
+    path: '/static'
+    headers:
+      Host: 'top2019950683.mwscdn.ru'
