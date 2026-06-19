@@ -1,47 +1,4 @@
 proxies:
-- name: '🇩🇪 Germany — #34'
-  type: 'vless'
-  server: '141.8.199.170'
-  port: 2083
-  uuid: '1750bd54-55e6-4d6b-9e0b-2d32c58dad23'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.com'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇩🇪 Germany — #38'
-  type: 'vless'
-  server: '141.8.199.170'
-  port: 2096
-  uuid: '1750bd54-55e6-4d6b-9e0b-2d32c58dad23'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'id.vk.com'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-  grpc-opts:
-    grpc-service-name: 'vless-grpc-reality'
-- name: '🇩🇪 Germany — #48'
-  type: 'vless'
-  server: '141.8.199.170'
-  port: 2083
-  uuid: '1750bd54-55e6-4d6b-9e0b-2d32c58dad23'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.com'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇺🇸 United States — #305'
   type: 'vless'
   server: '91.196.33.216'
@@ -56,6 +13,21 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'ZrTR1U8J1h4XtIzjKLznaMY6U_fogsndbuHlJmK-Ti4'
+- name: '🇩🇪 Germany — #131'
+  type: 'vless'
+  server: '141.8.199.170'
+  port: 2096
+  uuid: '1750bd54-55e6-4d6b-9e0b-2d32c58dad23'
+  udp: true
+  skip-cert-verify: true
+  network: 'grpc'
+  tls: true
+  servername: 'id.vk.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+  grpc-opts:
+    grpc-service-name: 'vless-grpc-reality'
 - name: '🇫🇮 Finland — #166'
   type: 'vless'
   server: '92.242.61.92'
@@ -186,22 +158,6 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'ZrTR1U8J1h4XtIzjKLznaMY6U_fogsndbuHlJmK-Ti4'
-- name: '🇷🇺 Aeza Group — #9'
-  type: 'vless'
-  server: '193.233.244.8'
-  port: 8549
-  uuid: '0dd1365f-4765-4502-a20d-1e09516ae8f5'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'www.microsoft.com'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: '4IOWxdtudwyVdmZl1Z2CINSbYHgMk94Bet0hVlgkrXo'
-    short-id: 'c4e8a1f29b3d6075'
-  grpc-opts:
-    grpc-service-name: 'service'
 - name: '🇦🇹 Austria — #41'
   type: 'vless'
   server: '158.160.238.73'
