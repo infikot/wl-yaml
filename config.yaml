@@ -1,4 +1,19 @@
 proxies:
+- name: '🇷🇺 VK — #1'
+  type: 'vless'
+  server: '217.16.29.31'
+  port: 65535
+  uuid: '910776af-dce0-425d-ae28-4fb154b9f7c2'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'max.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'MAsHVMzSDwqVpFoCqpxPSjLeQECxlWiHdpaQKRWq3AM'
+    short-id: '495739b968708ab7'
 - name: '🇩🇪 Germany — #62'
   type: 'vless'
   server: '89.208.229.243'
@@ -15,21 +30,6 @@ proxies:
     short-id: 'e432eea05ffadf84'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇩🇪 Germany — #90'
-  type: 'vless'
-  server: '178.250.242.39'
-  port: 443
-  uuid: '7573908b-d981-4153-92aa-33ee2d22144c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'www.kinopoisk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
-    short-id: '086007'
-    spider-x: '/'
 - name: '🇩🇪 Germany — #92'
   type: 'vless'
   server: '178.250.242.39'
@@ -58,21 +58,20 @@ proxies:
   reality-opts:
     public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
     short-id: '08600700'
-- name: '🇩🇪 Germany — #95'
+- name: '🇩🇪 Germany — #94'
   type: 'vless'
-  server: '178.250.243.14'
-  port: 8443
-  uuid: '65c05606-6c1d-42d7-8f27-c06520159fb7'
+  server: '78.159.250.32'
+  port: 1111
+  uuid: '9d748910-8306-411a-9b2e-11f0a2a4486f'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'voicechat.core-multiplayer.com'
+  servername: 'api-maps.yandex.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: '7ohfkZlozjyAzazHHyeABBTyjEGwmNKj4wpnSsajyzU'
-    short-id: '4fd3840415403f31'
+    public-key: 'YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA'
 - name: '🇩🇪 Germany — #96'
   type: 'vless'
   server: '78.159.250.32'
@@ -117,52 +116,6 @@ proxies:
   reality-opts:
     public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
     short-id: 'abcd1234'
-- name: '🇳🇱 The Netherlands — #210'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇳🇱 The Netherlands — #211'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇸🇪 Sweden — #221'
-  type: 'vless'
-  server: '109.120.188.54'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
 - name: '🇩🇪 Germany — #39'
   type: 'vless'
   server: '46.254.17.58'
@@ -174,64 +127,6 @@ proxies:
   tls: false
   grpc-opts:
     grpc-service-name: 'grpc'
-- name: '🇷🇺 Timeweb — #22'
-  type: 'vless'
-  server: '109.120.189.154'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE'
-    short-id: '6aa44564cda562bc'
-- name: '🇷🇺 Timeweb — #24'
-  type: 'vless'
-  server: '109.120.189.154'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE'
-    short-id: '6aa44564cda562bc'
-- name: '🇩🇪 Germany — #27'
-  type: 'vless'
-  server: '78.159.250.32'
-  port: 1111
-  uuid: '9d748910-8306-411a-9b2e-11f0a2a4486f'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA'
-- name: '🇩🇪 Germany — #28'
-  type: 'vless'
-  server: '78.159.250.32'
-  port: 1111
-  uuid: '9d748910-8306-411a-9b2e-11f0a2a4486f'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA'
 - name: '🇩🇪 Germany — #26'
   type: 'vless'
   server: '95.163.183.109'
@@ -259,36 +154,6 @@ proxies:
   tls: false
   grpc-opts:
     grpc-service-name: 'grpc'
-- name: '🇩🇪 Germany — #21'
-  type: 'vless'
-  server: '178.250.242.39'
-  port: 443
-  uuid: '7573908b-d981-4153-92aa-33ee2d22144c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'www.kinopoisk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
-    short-id: '086007'
-    spider-x: '/'
-- name: '🇸🇪 Sweden — #203'
-  type: 'vless'
-  server: '109.120.188.54'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
 - name: '🇫🇮 Finland — #108'
   type: 'vless'
   server: '94.139.251.7'
@@ -304,22 +169,21 @@ proxies:
   reality-opts:
     public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
     short-id: 'abcd1234'
-- name: '🇳🇱 The Netherlands — #78'
+- name: '🇳🇱 The Netherlands — #72'
   type: 'vless'
-  server: '51.250.108.107'
+  server: '84.201.155.125'
   port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  uuid: 'a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'safari'
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
+    public-key: 'u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio'
+    short-id: 'c6d0b2fa72eb6389'
 - name: '🇺🇸 United States — #292'
   type: 'vless'
   server: '95.163.211.206'
@@ -349,7 +213,7 @@ proxies:
   reality-opts:
     public-key: '6nsVaGZyZOiD9A0Rd9ci-r-7PO_i2ZP5kPK-0orxdS4'
     short-id: 'aabb'
-- name: '🇦🇹 Austria — #16'
+- name: '🇦🇹 Austria — #22'
   type: 'vless'
   server: '46.243.235.184'
   port: 2053
@@ -364,50 +228,6 @@ proxies:
   reality-opts:
     public-key: '6nsVaGZyZOiD9A0Rd9ci-r-7PO_i2ZP5kPK-0orxdS4'
     short-id: 'aabb'
-- name: '🇦🇹 Austria — #24'
-  type: 'vless'
-  server: '46.243.235.184'
-  port: 2053
-  uuid: '6d1cf8d0-d903-4a64-9e2b-fe2c5d2c3e12'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: '6nsVaGZyZOiD9A0Rd9ci-r-7PO_i2ZP5kPK-0orxdS4'
-    short-id: 'aabb'
-- name: '🇩🇪 Germany — #16'
-  type: 'vless'
-  server: '37.139.34.124'
-  port: 443
-  uuid: 'ae0959f1-f25a-43d0-9c88-be1672641fc3'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4'
-- name: '🇳🇱 The Netherlands — #159'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
 - name: '🇩🇪 Germany — #36'
   type: 'vless'
   server: '178.250.242.39'
@@ -465,21 +285,36 @@ proxies:
     short-id: 'd9a7c1e2b3f4481a'
   grpc-opts:
     grpc-service-name: 'grpc'
-- name: '🇸🇪 Sweden — #385'
+- name: '🇳🇱 The Netherlands — #327'
   type: 'vless'
-  server: '109.120.188.54'
+  server: '84.201.160.167'
   port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
+  servername: 'yandex.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
+- name: '🇳🇱 The Netherlands — #328'
+  type: 'vless'
+  server: '84.201.160.167'
+  port: 443
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'yandex.ru'
+  client-fingerprint: 'qq'
+  reality-opts:
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
 - name: '🇺🇸 United States — #403'
   type: 'vless'
   server: '46.243.235.184'
@@ -495,37 +330,6 @@ proxies:
   reality-opts:
     public-key: 'xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw'
     short-id: 'aabb'
-- name: '🇳🇱 The Netherlands — #345'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇳🇱 The Netherlands — #346'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
 - name: '🇬🇧 United Kingdom — #114'
   type: 'vless'
   server: '94.139.251.7'
@@ -541,174 +345,51 @@ proxies:
   reality-opts:
     public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
     short-id: 'abcd1234'
-- name: '🇳🇱 The Netherlands — #158'
+- name: '🇩🇪 Germany — #34'
   type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  server: '62.152.60.56'
+  port: 7443
+  uuid: '90ccad81-9d13-401e-ac8f-a8eff1d8b574'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'safari'
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #32'
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
+- name: '🇳🇱 The Netherlands — #73'
   type: 'vless'
-  server: '178.250.242.39'
+  server: '84.201.160.167'
   port: 443
-  uuid: '7573908b-d981-4153-92aa-33ee2d22144c'
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
+  flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'www.kinopoisk.ru'
+  servername: 'yandex.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
-    short-id: '086007'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #33'
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
+- name: '🇳🇱 The Netherlands — #74'
   type: 'vless'
-  server: '178.250.242.39'
+  server: '84.201.160.167'
   port: 443
-  uuid: '7573908b-d981-4153-92aa-33ee2d22144c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'www.kinopoisk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
-    short-id: '08600700'
-- name: '🇳🇱 The Netherlands — #75'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
+  servername: 'yandex.ru'
+  client-fingerprint: 'qq'
   reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇳🇱 The Netherlands — #76'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇳🇱 The Netherlands — #77'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇳🇱 The Netherlands — #79'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇳🇱 The Netherlands — #80'
-  type: 'vless'
-  server: '84.201.155.125'
-  port: 443
-  uuid: 'a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'edge'
-  reality-opts:
-    public-key: 'u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio'
-    short-id: 'c6d0b2fa72eb6389'
-- name: '🇳🇱 The Netherlands — #81'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇳🇱 The Netherlands — #82'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇳🇱 The Netherlands — #83'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
 - name: '🇳🇱 The Netherlands — #84'
   type: 'vless'
   server: '84.201.155.125'
@@ -724,37 +405,6 @@ proxies:
   reality-opts:
     public-key: 'u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio'
     short-id: 'c6d0b2fa72eb6389'
-- name: '🇳🇱 The Netherlands — #87'
-  type: 'vless'
-  server: '84.201.155.125'
-  port: 443
-  uuid: 'a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'edge'
-  reality-opts:
-    public-key: 'u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio'
-    short-id: 'c6d0b2fa72eb6389'
-- name: '🇳🇱 The Netherlands — #90'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
 - name: '🇳🇱 The Netherlands — #91'
   type: 'vless'
   server: '84.201.155.125'
@@ -770,51 +420,29 @@ proxies:
   reality-opts:
     public-key: 'u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio'
     short-id: 'c6d0b2fa72eb6389'
-- name: '🇷🇺 Timeweb — #21'
+- name: '🇩🇪 Germany — #29'
   type: 'vless'
-  server: '109.120.189.154'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  server: '78.159.250.32'
+  port: 1111
+  uuid: '9d748910-8306-411a-9b2e-11f0a2a4486f'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE'
-    short-id: '6aa44564cda562bc'
-- name: '🇩🇪 Germany — #29'
+    public-key: 'YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA'
+- name: '🇩🇪 Germany — #31'
   type: 'vless'
-  server: '95.163.183.109'
-  port: 2053
-  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
+  server: '46.254.17.58'
+  port: 80
+  uuid: '7c018044-164b-4ccc-862c-2830eba34145'
   udp: true
   skip-cert-verify: true
   network: 'grpc'
-  tls: true
-  servername: 'hh.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
-    short-id: 'e432eea05ffadf84'
-  grpc-opts:
-    grpc-service-name: 'grpc-direct'
-- name: '🇩🇪 Germany — #30'
-  type: 'vless'
-  server: '217.144.184.251'
-  port: 2053
-  uuid: '8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'cdn.jsdelivr.net'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA'
-    short-id: 'd9a7c1e2b3f4481a'
+  tls: false
   grpc-opts:
     grpc-service-name: 'grpc'
 - name: '🇬🇧 United Kingdom — #46'
@@ -832,51 +460,62 @@ proxies:
   reality-opts:
     public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
     short-id: 'abcd1234'
-- name: '🇸🇪 Sweden — #74'
+- name: '🇳🇱 The Netherlands — #59'
   type: 'vless'
-  server: '109.120.188.54'
+  server: '84.201.160.167'
   port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'yandex.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
+- name: '🇳🇱 The Netherlands — #60'
+  type: 'vless'
+  server: '84.201.160.167'
+  port: 443
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'yandex.ru'
+  client-fingerprint: 'qq'
+  reality-opts:
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
+- name: '🇵🇱 Poland — #70'
+  type: 'vless'
+  server: '89.208.229.238'
+  port: 443
+  uuid: '3ef61b7f-f5f5-4774-9759-aff86b88eeb9'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
   tls: true
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
-- name: '🇦🇲 Armenia — #31'
+    public-key: 'Mkxs9LT0tRg208EbLXmP-_dQYlsPOgaTwZ3acwgVVWs'
+- name: '🇵🇱 Poland — #71'
   type: 'vless'
-  server: '144.31.129.174'
+  server: '89.208.229.238'
   port: 443
-  uuid: 'a3e387a8-2284-00aa-b5ea-48837b9691ce'
+  uuid: '3ef61b7f-f5f5-4774-9759-aff86b88eeb9'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
-  flow: 'xtls-rprx-vision'
   tls: true
-  servername: 's3-fi-1.rucdn777.com'
+  servername: 'eh.vk.com'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'GDlgvx8exl9BJ5dD2HSVqE2oUbZyZZOFX5EdnCn5j2M'
-    short-id: '20ed7ee26095771b'
-- name: '🇦🇹 Austria — #32'
-  type: 'vless'
-  server: '144.31.129.174'
-  port: 443
-  uuid: 'a3e387a8-2284-00be-b5ea-48837b9691ce'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 's3-fi-1.rucdn777.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'GDlgvx8exl9BJ5dD2HSVqE2oUbZyZZOFX5EdnCn5j2M'
-    short-id: 'c019a6ccd9134668'
+    public-key: 'Mkxs9LT0tRg208EbLXmP-_dQYlsPOgaTwZ3acwgVVWs'
 - name: '🇺🇸 United States — #254'
   type: 'vless'
   server: '46.243.235.184'
@@ -892,52 +531,6 @@ proxies:
   reality-opts:
     public-key: 'xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw'
     short-id: 'aabb'
-- name: '🇳🇱 The Netherlands — #152'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇳🇱 The Netherlands — #153'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇳🇱 The Netherlands — #154'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
 - name: '🇱🇹 Lithuania — #123'
   type: 'vless'
   server: '89.208.229.243'
@@ -954,24 +547,39 @@ proxies:
     short-id: 'e432eea05ffadf84'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇷🇺 Yandex — #3'
+- name: '🇳🇱 The Netherlands — #149'
   type: 'vless'
-  server: '158.160.204.211'
-  port: 8441
-  uuid: 'c919e592-5639-491e-a9b7-7a201175ae12'
+  server: '84.201.160.167'
+  port: 443
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ya.ru'
-  client-fingerprint: 'chrome'
+  servername: 'yandex.ru'
+  client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'Q5mtL2qHRAoPEVnl9GRezCHkTrNTnvW_FL3_HQhhKDo'
-    short-id: '06011ef464e3313f'
-- name: '🇷🇺 Selectel — #17'
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
+- name: '🇳🇱 The Netherlands — #150'
   type: 'vless'
-  server: '213.219.212.24'
+  server: '84.201.160.167'
+  port: 443
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'yandex.ru'
+  client-fingerprint: 'qq'
+  reality-opts:
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
+- name: '🇷🇺 Selectel — #18'
+  type: 'vless'
+  server: '213.219.212.105'
   port: 443
   uuid: 'ad584b51-0b6e-4fb8-973e-da25081c10c7'
   udp: true
@@ -983,96 +591,36 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 Selectel — #18'
+- name: '🇳🇱 The Netherlands — #375'
   type: 'vless'
-  server: '213.219.212.30'
+  server: '84.201.160.167'
   port: 443
-  uuid: '56936a8b-471b-47ee-8087-2bb93f0495d2'
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'eh.vk.ru'
+  servername: 'yandex.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇳🇱 The Netherlands — #350'
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
+- name: '🇳🇱 The Netherlands — #376'
   type: 'vless'
-  server: '51.250.108.107'
+  server: '84.201.160.167'
   port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  uuid: '694eadbe-d61f-4f80-957b-d55d990e8ffa'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
+  servername: 'yandex.ru'
+  client-fingerprint: 'qq'
   reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇳🇱 The Netherlands — #379'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇳🇱 The Netherlands — #380'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'random'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇳🇱 The Netherlands — #384'
-  type: 'vless'
-  server: '51.250.108.107'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇸🇪 Sweden — #416'
-  type: 'vless'
-  server: '109.120.188.54'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
+    public-key: 'ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ'
+    short-id: '2bb326a463fd1937'
 - name: '🇺🇸 United States — #448'
   type: 'vless'
   server: '95.163.211.206'
@@ -1089,21 +637,7 @@ proxies:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Selectel — #19'
   type: 'vless'
-  server: '213.219.212.30'
-  port: 443
-  uuid: 'ad584b51-0b6e-4fb8-973e-da25081c10c7'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'eh.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 Selectel — #20'
-  type: 'vless'
-  server: '213.219.212.14'
+  server: '213.219.212.105'
   port: 443
   uuid: '56936a8b-471b-47ee-8087-2bb93f0495d2'
   udp: true
@@ -1157,21 +691,6 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇷🇺 Yandex — #4'
-  type: 'vless'
-  server: '84.201.155.125'
-  port: 443
-  uuid: 'a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio'
-    short-id: 'c6d0b2fa72eb6389'
 - name: '🇷🇺 Selectel — #12'
   type: 'vless'
   server: '213.219.212.24'
@@ -1190,7 +709,7 @@ proxies:
   type: 'vless'
   server: '213.219.212.24'
   port: 443
-  uuid: '56936a8b-471b-47ee-8087-2bb93f0495d2'
+  uuid: 'ad584b51-0b6e-4fb8-973e-da25081c10c7'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
@@ -1202,22 +721,7 @@ proxies:
     public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
 - name: '🇷🇺 Selectel — #15'
   type: 'vless'
-  server: '45.152.113.206'
-  port: 443
-  uuid: '859a537b-09cf-4bce-8da4-ecbb72950e3a'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: '1.ru.oncloudnineservicestreang.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs'
-    short-id: '65557338e1cd5605'
-- name: '🇷🇺 Selectel — #16'
-  type: 'vless'
-  server: '213.219.212.24'
+  server: '213.219.212.30'
   port: 443
   uuid: '56936a8b-471b-47ee-8087-2bb93f0495d2'
   udp: true
@@ -1229,21 +733,20 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 Timeweb — #17'
+- name: '🇷🇺 Selectel — #16'
   type: 'vless'
-  server: '109.120.189.154'
+  server: '213.219.212.30'
   port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  uuid: 'ad584b51-0b6e-4fb8-973e-da25081c10c7'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
+  servername: 'eh.vk.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE'
-    short-id: '6aa44564cda562bc'
+    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
 - name: '🇩🇪 Germany — #20'
   type: 'vless'
   server: '178.250.242.39'
@@ -1258,20 +761,6 @@ proxies:
   reality-opts:
     public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
     short-id: '086007'
-- name: '🇩🇪 Germany — #22'
-  type: 'vless'
-  server: '178.250.242.39'
-  port: 443
-  uuid: '7573908b-d981-4153-92aa-33ee2d22144c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'www.kinopoisk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
-    short-id: '08600700'
 - name: '🇺🇸 United States — #385'
   type: 'vless'
   server: '95.163.211.206'
@@ -1286,21 +775,6 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇨🇿 Czechia — #18'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
 - name: '🇫🇮 Finland — #98'
   type: 'vless'
   server: '94.139.251.7'
@@ -1316,21 +790,6 @@ proxies:
   reality-opts:
     public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
     short-id: 'abcd1234'
-- name: '🇩🇪 Germany — #10'
-  type: 'vless'
-  server: '178.250.242.39'
-  port: 443
-  uuid: '7573908b-d981-4153-92aa-33ee2d22144c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  tls: true
-  servername: 'www.kinopoisk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
-    short-id: '086007'
-    spider-x: '/'
 - name: '🇩🇪 Germany — #11'
   type: 'vless'
   server: '178.250.242.39'
@@ -1345,22 +804,6 @@ proxies:
   reality-opts:
     public-key: 'VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U'
     short-id: '086007'
-- name: '🇪🇪 Estonia — #88'
-  type: 'vless'
-  server: '5.188.140.216'
-  port: 2053
-  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'hh.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
-    short-id: '4b685844d0b4f724'
-  grpc-opts:
-    grpc-service-name: 'grpc-direct'
 - name: '🇦🇹 Austria — #12'
   type: 'vless'
   server: '95.163.211.206'
@@ -1401,37 +844,6 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'Mkxs9LT0tRg208EbLXmP-_dQYlsPOgaTwZ3acwgVVWs'
-- name: '🇸🇪 Sweden — #86'
-  type: 'vless'
-  server: '109.120.188.54'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
-- name: '🇧🇾 Belarus — #11'
-  type: 'vless'
-  server: '5.188.140.216'
-  port: 2053
-  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'hh.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
-    short-id: '4b685844d0b4f724'
-  grpc-opts:
-    grpc-service-name: 'grpc-direct'
 - name: '🇵🇱 Poland — #271'
   type: 'vless'
   server: '5.188.141.144'
@@ -1479,22 +891,6 @@ proxies:
     short-id: '7824dfd19eab1acc'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇱🇻 Latvia — #133'
-  type: 'vless'
-  server: '5.188.140.216'
-  port: 2053
-  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'hh.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
-    short-id: '4b685844d0b4f724'
-  grpc-opts:
-    grpc-service-name: 'grpc-direct'
 - name: '🇵🇱 Poland — #189'
   type: 'vless'
   server: '5.188.141.144'
@@ -1527,144 +923,21 @@ proxies:
     short-id: 'e432eea05ffadf84'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇷🇺 Yandex — #5'
+- name: '🇺🇸 United States — #154'
   type: 'vless'
-  server: '84.201.155.125'
-  port: 443
-  uuid: 'a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7'
+  server: '46.243.235.184'
+  port: 20447
+  uuid: '6d1cf8d0-d903-4a64-9e2b-fe2c5d2c3e12'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'edge'
-  reality-opts:
-    public-key: 'u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio'
-    short-id: 'c6d0b2fa72eb6389'
-- name: '🇷🇺 Yandex — #6'
-  type: 'vless'
-  server: '158.160.204.211'
-  port: 8441
-  uuid: 'c919e592-5639-491e-a9b7-7a201175ae12'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ya.ru'
+  servername: 'max.ru'
   client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'Q5mtL2qHRAoPEVnl9GRezCHkTrNTnvW_FL3_HQhhKDo'
-    short-id: '06011ef464e3313f'
-- name: '🇨🇿 Czechia — #20'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇨🇿 Czechia — #21'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇸🇪 Sweden — #167'
-  type: 'vless'
-  server: '109.120.188.54'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
-- name: '🇨🇿 Czechia — #23'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇨🇿 Czechia — #24'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇷🇺 Selectel — #11'
-  type: 'vless'
-  server: '45.152.113.206'
-  port: 443
-  uuid: '859a537b-09cf-4bce-8da4-ecbb72950e3a'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: '1.ru.oncloudnineservicestreang.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs'
-    short-id: '65557338e1cd5605'
-- name: '🇨🇿 Czechia — #17'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
+    public-key: 'xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw'
+    short-id: 'aabb'
 - name: '🇫🇮 Finland — #240'
   type: 'vless'
   server: '94.139.251.7'
@@ -1727,6 +1000,22 @@ proxies:
     short-id: 'abcd1234'
 - name: '🇧🇾 Belarus — #25'
   type: 'vless'
+  server: '95.163.183.109'
+  port: 2053
+  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
+  udp: true
+  skip-cert-verify: true
+  network: 'grpc'
+  tls: true
+  servername: 'hh.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
+    short-id: 'e432eea05ffadf84'
+  grpc-opts:
+    grpc-service-name: 'grpc-direct'
+- name: '🇱🇻 Latvia — #131'
+  type: 'vless'
   server: '5.188.140.194'
   port: 2053
   uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
@@ -1735,64 +1024,32 @@ proxies:
   network: 'grpc'
   tls: true
   servername: 'hh.ru'
-  client-fingerprint: 'firefox'
+  client-fingerprint: 'chrome'
   reality-opts:
     public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
     short-id: '5b9dc5fe4ad87cc2'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇧🇾 Belarus — #26'
+- name: '🇺🇸 United States — #175'
   type: 'vless'
-  server: '5.188.141.144'
-  port: 2053
-  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'hh.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
-    short-id: '7824dfd19eab1acc'
-  grpc-opts:
-    grpc-service-name: 'grpc-direct'
-- name: '🇨🇿 Czechia — #27'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  server: '46.243.235.184'
+  port: 20447
+  uuid: '6d1cf8d0-d903-4a64-9e2b-fe2c5d2c3e12'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
+  servername: 'max.ru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇨🇿 Czechia — #28'
+    public-key: 'xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw'
+    short-id: 'aabb'
+- name: '🇫🇮 Finland — #35'
   type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇵🇱 Poland — #162'
-  type: 'vless'
-  server: '51.250.87.30'
-  port: 443
-  uuid: '3283529b-3bc4-4e15-803a-7d5751a3df07'
+  server: '94.139.251.7'
+  port: 4089
+  uuid: 'e4cd624c-18d6-415e-8cde-0a800e06ce31'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
@@ -1801,9 +1058,8 @@ proxies:
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE'
-    short-id: '33ebf55b473ae1dd'
-    spider-x: '/'
+    public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
+    short-id: 'abcd1234'
 - name: '🇫🇮 Finland — #40'
   type: 'vless'
   server: '94.139.251.7'
@@ -1834,22 +1090,6 @@ proxies:
   reality-opts:
     public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
     short-id: 'abcd1234'
-- name: '🇵🇱 Poland — #93'
-  type: 'vless'
-  server: '51.250.87.30'
-  port: 443
-  uuid: '3283529b-3bc4-4e15-803a-7d5751a3df07'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE'
-    short-id: '33ebf55b473ae1dd'
-    spider-x: '/'
 - name: '🇵🇱 Poland — #94'
   type: 'vless'
   server: '95.163.183.109'
@@ -1882,22 +1122,6 @@ proxies:
     short-id: 'e432eea05ffadf84'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇧🇾 Belarus — #27'
-  type: 'vless'
-  server: '5.188.140.216'
-  port: 2053
-  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'hh.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
-    short-id: '4b685844d0b4f724'
-  grpc-opts:
-    grpc-service-name: 'grpc-direct'
 - name: '🇫🇮 Finland — #46'
   type: 'vless'
   server: '94.139.251.7'
@@ -1928,6 +1152,22 @@ proxies:
   reality-opts:
     public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
     short-id: 'abcd1234'
+- name: '🇱🇻 Latvia — #56'
+  type: 'vless'
+  server: '5.188.140.194'
+  port: 2053
+  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
+  udp: true
+  skip-cert-verify: true
+  network: 'grpc'
+  tls: true
+  servername: 'hh.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
+    short-id: '5b9dc5fe4ad87cc2'
+  grpc-opts:
+    grpc-service-name: 'grpc-direct'
 - name: '🇵🇱 Poland — #91'
   type: 'vless'
   server: '51.250.87.30'
@@ -1959,52 +1199,21 @@ proxies:
   reality-opts:
     public-key: 'MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE'
     short-id: '33ebf55b473ae1dd'
-- name: '🇸🇪 Sweden — #93'
+- name: '🇺🇸 United States — #101'
   type: 'vless'
-  server: '109.120.188.54'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
+  server: '46.243.235.184'
+  port: 20447
+  uuid: '6d1cf8d0-d903-4a64-9e2b-fe2c5d2c3e12'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: 'max.ru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
-- name: '🇨🇿 Czechia — #25'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-- name: '🇨🇿 Czechia — #26'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
+    public-key: 'xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw'
+    short-id: 'aabb'
 - name: '🇪🇪 Estonia — #37'
   type: 'vless'
   server: '95.163.183.109'
@@ -2052,21 +1261,21 @@ proxies:
     public-key: 'MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE'
     short-id: '33ebf55b473ae1dd'
     spider-x: '/'
-- name: '🇵🇱 Poland — #73'
+- name: '🇺🇸 United States — #81'
   type: 'vless'
-  server: '51.250.87.30'
-  port: 443
-  uuid: '3283529b-3bc4-4e15-803a-7d5751a3df07'
+  server: '46.243.235.184'
+  port: 20447
+  uuid: '6d1cf8d0-d903-4a64-9e2b-fe2c5d2c3e12'
   udp: true
   skip-cert-verify: true
   network: 'tcp'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: 'max.ru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE'
-    short-id: '33ebf55b473ae1dd'
+    public-key: 'xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw'
+    short-id: 'aabb'
 - name: '🇧🇾 Belarus — #28'
   type: 'vless'
   server: '95.163.183.109'
@@ -2083,22 +1292,6 @@ proxies:
     short-id: 'e432eea05ffadf84'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇨🇿 Czechia — #30'
-  type: 'vless'
-  server: '84.201.144.254'
-  port: 443
-  uuid: '12acdd85-2964-4484-8db3-dfb97ed61c7c'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'web.max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
 - name: '🇪🇪 Estonia — #39'
   type: 'vless'
   server: '95.163.183.109'
@@ -2115,7 +1308,38 @@ proxies:
     short-id: 'e432eea05ffadf84'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇵🇱 Poland — #82'
+- name: '🇬🇧 United Kingdom — #36'
+  type: 'vless'
+  server: '94.139.251.7'
+  port: 3087
+  uuid: 'e4cd624c-18d6-415e-8cde-0a800e06ce31'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'dzen.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU'
+    short-id: 'abcd1234'
+- name: '🇱🇻 Latvia — #37'
+  type: 'vless'
+  server: '95.163.183.109'
+  port: 2053
+  uuid: 'fe3a2f0a-302e-11f1-8dcf-ea2d61e96ea2'
+  udp: true
+  skip-cert-verify: true
+  network: 'grpc'
+  tls: true
+  servername: 'hh.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M'
+    short-id: 'e432eea05ffadf84'
+  grpc-opts:
+    grpc-service-name: 'grpc-direct'
+- name: '🇵🇱 Poland — #68'
   type: 'vless'
   server: '51.250.87.30'
   port: 443
@@ -2131,7 +1355,7 @@ proxies:
     public-key: 'MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE'
     short-id: '33ebf55b473ae1dd'
     spider-x: '/'
-- name: '🇵🇱 Poland — #83'
+- name: '🇵🇱 Poland — #69'
   type: 'vless'
   server: '51.250.87.30'
   port: 443
@@ -2146,3 +1370,18 @@ proxies:
   reality-opts:
     public-key: 'MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE'
     short-id: '33ebf55b473ae1dd'
+- name: '🇺🇸 United States — #77'
+  type: 'vless'
+  server: '46.243.235.184'
+  port: 20447
+  uuid: '6d1cf8d0-d903-4a64-9e2b-fe2c5d2c3e12'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'max.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw'
+    short-id: 'aabb'
