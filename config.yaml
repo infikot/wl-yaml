@@ -1,33 +1,4 @@
 proxies:
-- name: '🇷🇺 VK — #2'
-  type: 'vless'
-  server: '89.208.230.241'
-  port: 5443
-  uuid: '1e06c388-d31c-420e-916a-94a990648e34'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #53'
-  type: 'vless'
-  server: '188.68.218.101'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'cloud.mail.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
-    spider-x: '/'
 - name: '🇷🇺 Yakovlev Denis Alexandrovich — #54'
   type: 'vless'
   server: '188.68.218.101'
@@ -42,21 +13,6 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
-- name: '🇩🇪 Germany — #93'
-  type: 'vless'
-  server: '78.159.250.245'
-  port: 8443
-  uuid: 'a982c357-ae92-40ce-9dad-0e3c3b393ac2'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ya.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'gK4nP4pGndlg1SwYVO4AMhOZQGsmGLbu1ScR4SIP-Gw'
-    short-id: '76394756'
 - name: '🇩🇪 Germany — #97'
   type: 'vless'
   server: '78.159.245.43'
@@ -71,36 +27,6 @@ proxies:
   client-fingerprint: 'qq'
   reality-opts:
     public-key: 'tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY'
-    short-id: 'a5bd715847213387'
-- name: '🇩🇪 Germany — #98'
-  type: 'vless'
-  server: '78.159.245.43'
-  port: 25567
-  uuid: '1db3cf89-7ca0-4d7d-8c7c-4f57ae2a29da'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'iv.kommersant.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY'
-    short-id: 'a5bd715847213387'
-- name: '🇩🇪 Germany — #99'
-  type: 'vless'
-  server: '78.159.245.45'
-  port: 25565
-  uuid: '1db3cf89-7ca0-4d7d-8c7c-4f57ae2a29da'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'img.perekrestok.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'Pw1EUU1hud5uvtfySGyGy5vV38bYIiQzDx-cDQoAdk0'
     short-id: 'a5bd715847213387'
 - name: '🇩🇪 Germany — #100'
   type: 'vless'
@@ -146,6 +72,20 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA'
+- name: '🇩🇪 Germany — #112'
+  type: 'vless'
+  server: '78.159.250.189'
+  port: 1111
+  uuid: '1db3cf89-7ca0-4d7d-8c7c-4f57ae2a29da'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA'
 - name: '🇩🇪 Germany — #113'
   type: 'vless'
   server: '51.250.47.173'
@@ -162,9 +102,9 @@ proxies:
     public-key: 'xlZzy5X1gHbt7I3n8bxpQkwBkMgmFIYAgtHaSzGZ7AU'
     short-id: '21f76882c439a553'
     spider-x: '/'
-- name: '🇩🇪 Germany — #185'
+- name: '🇩🇪 Germany — #183'
   type: 'vless'
-  server: '78.159.250.112'
+  server: '78.159.250.189'
   port: 1111
   uuid: '1db3cf89-7ca0-4d7d-8c7c-4f57ae2a29da'
   udp: true
@@ -173,7 +113,7 @@ proxies:
   flow: 'xtls-rprx-vision'
   tls: true
   servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'firefox'
+  client-fingerprint: 'chrome'
   reality-opts:
     public-key: 'YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA'
 - name: '🇩🇪 Germany — #186'
@@ -207,20 +147,6 @@ proxies:
   reality-opts:
     public-key: 'Jvo3mtGzgJPAntN3FgljPoUvZZgLzOh9wPlTrzI3AiY'
     spider-x: '/'
-- name: '🇷🇺 Yandex — #2'
-  type: 'vless'
-  server: '51.250.0.174'
-  port: 443
-  uuid: '099b1932-b921-4e0d-8794-83b641088719'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: '5post-gate.x5.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Yandex — #5'
   type: 'vless'
   server: '51.250.0.174'
@@ -232,20 +158,6 @@ proxies:
   flow: 'xtls-rprx-vision'
   tls: true
   servername: '5post-gate.x5.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇷🇺 Yandex — #8'
-  type: 'vless'
-  server: '51.250.0.174'
-  port: 443
-  uuid: 'bc793ef7-e854-476b-a849-3cc26d41e1c9'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
   client-fingerprint: 'qq'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
@@ -261,6 +173,21 @@ proxies:
   tls: true
   servername: 'rezerv8.yunus.guru'
   client-fingerprint: 'qq'
+  reality-opts:
+    public-key: '6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE'
+    short-id: '34256b39b4ebb864'
+- name: '🇳🇱 The Netherlands — #317'
+  type: 'vless'
+  server: '158.160.191.91'
+  port: 443
+  uuid: 'a5ea9247-79f3-4655-aece-3fb51e1e669e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'rezerv8.yunus.guru'
+  client-fingerprint: 'chrome'
   reality-opts:
     public-key: '6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE'
     short-id: '34256b39b4ebb864'
@@ -294,6 +221,20 @@ proxies:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
     spider-x: '/'
 - name: '🇷🇺 Yakovlev Denis Alexandrovich — #20'
+  type: 'vless'
+  server: '188.68.218.101'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'cloud.mail.ru'
+  client-fingerprint: 'qq'
+  reality-opts:
+    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+- name: '🇷🇺 Yakovlev Denis Alexandrovich — #17'
   type: 'vless'
   server: '188.68.218.101'
   port: 443
@@ -364,6 +305,50 @@ proxies:
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
     spider-x: '/'
+- name: '🇷🇺 Yakovlev Denis Alexandrovich — #27'
+  type: 'vless'
+  server: '188.68.218.101'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'cloud.mail.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+- name: '🇷🇺 Yakovlev Denis Alexandrovich — #22'
+  type: 'vless'
+  server: '188.68.218.101'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'cloud.mail.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+    spider-x: '/'
+- name: '🇷🇺 Yakovlev Denis Alexandrovich — #21'
+  type: 'vless'
+  server: '188.68.218.101'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'cloud.mail.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+    spider-x: '/'
 - name: '🇷🇺 Yakovlev Denis Alexandrovich — #32'
   type: 'vless'
   server: '188.68.218.101'
@@ -379,6 +364,20 @@ proxies:
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
 - name: '🇷🇺 Yakovlev Denis Alexandrovich — #37'
+  type: 'vless'
+  server: '188.68.218.101'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'cloud.mail.ru'
+  client-fingerprint: 'qq'
+  reality-opts:
+    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+- name: '🇷🇺 Yakovlev Denis Alexandrovich — #38'
   type: 'vless'
   server: '188.68.218.101'
   port: 443
@@ -466,6 +465,20 @@ proxies:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
     spider-x: '/'
 - name: '🇷🇺 Yakovlev Denis Alexandrovich — #59'
+  type: 'vless'
+  server: '188.68.218.101'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'cloud.mail.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+- name: '🇷🇺 Yakovlev Denis Alexandrovich — #55'
   type: 'vless'
   server: '188.68.218.101'
   port: 443
@@ -666,6 +679,21 @@ proxies:
   reality-opts:
     public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
     short-id: '1559b440'
+- name: '🇬🇧 United Kingdom — #254'
+  type: 'vless'
+  server: '77.110.113.188'
+  port: 443
+  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  tls: true
+  servername: 'www.samsung.com'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
+    short-id: '1559b440'
+    spider-x: '/'
 - name: '🇬🇧 United Kingdom — #265'
   type: 'vless'
   server: '77.110.113.188'
@@ -681,35 +709,7 @@ proxies:
     public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
     short-id: '1559b440'
     spider-x: '/'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #23'
-  type: 'vless'
-  server: '188.68.218.101'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'cloud.mail.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
 - name: '🇬🇧 United Kingdom — #239'
-  type: 'vless'
-  server: '77.110.113.188'
-  port: 443
-  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  tls: true
-  servername: 'www.samsung.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
-    short-id: '1559b440'
-- name: '🇬🇧 United Kingdom — #242'
   type: 'vless'
   server: '77.110.113.188'
   port: 443
@@ -811,21 +811,6 @@ proxies:
   reality-opts:
     public-key: '6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE'
     short-id: '34256b39b4ebb864'
-- name: '🇳🇱 The Netherlands — #310'
-  type: 'vless'
-  server: '78.159.245.72'
-  port: 2032
-  uuid: 'af22dd57-fda0-422f-87b5-edb332450156'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'eh1.vk.com'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0'
-    short-id: '6ba7b8109dad11d1'
 - name: '🇳🇱 The Netherlands — #318'
   type: 'vless'
   server: '78.159.250.245'
@@ -927,20 +912,6 @@ proxies:
   client-fingerprint: 'qq'
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #65'
-  type: 'vless'
-  server: '188.68.218.101'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'cloud.mail.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
 - name: '🇳🇱 The Netherlands — #297'
   type: 'vless'
   server: '158.160.191.91'
@@ -1001,34 +972,6 @@ proxies:
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
     spider-x: '/'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #31'
-  type: 'vless'
-  server: '188.68.218.101'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'cloud.mail.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #36'
-  type: 'vless'
-  server: '188.68.218.101'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'cloud.mail.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
 - name: '🇷🇺 Yakovlev Denis Alexandrovich — #39'
   type: 'vless'
   server: '188.68.218.101'
@@ -1043,6 +986,20 @@ proxies:
   client-fingerprint: 'qq'
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+- name: '🇫🇮 Finland — #164'
+  type: 'vless'
+  server: '138.16.169.188'
+  port: 2087
+  uuid: 'ab51054f-de76-4a0f-9f3a-b44c8df86a6c'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'yastatic.net'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'Jvo3mtGzgJPAntN3FgljPoUvZZgLzOh9wPlTrzI3AiY'
 - name: '🇫🇮 Finland — #165'
   type: 'vless'
   server: '138.16.169.188'
@@ -1057,6 +1014,35 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'Jvo3mtGzgJPAntN3FgljPoUvZZgLzOh9wPlTrzI3AiY'
+- name: '🇬🇧 United Kingdom — #195'
+  type: 'vless'
+  server: '77.110.113.188'
+  port: 443
+  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  tls: true
+  servername: 'www.samsung.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
+    short-id: '1559b440'
+    spider-x: '/'
+- name: '🇬🇧 United Kingdom — #196'
+  type: 'vless'
+  server: '77.110.113.188'
+  port: 443
+  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  tls: true
+  servername: 'www.samsung.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
+    short-id: '1559b440'
 - name: '🇹🇷 Türkiye — #344'
   type: 'vless'
   server: '176.109.85.89'
@@ -1087,21 +1073,6 @@ proxies:
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
     spider-x: '/'
-- name: '🇬🇧 United Kingdom — #198'
-  type: 'vless'
-  server: '77.110.113.188'
-  port: 443
-  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  tls: true
-  servername: 'www.samsung.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
-    short-id: '1559b440'
-    spider-x: '/'
 - name: '🇷🇺 Yandex — #9'
   type: 'vless'
   server: '51.250.0.174'
@@ -1114,6 +1085,20 @@ proxies:
   tls: true
   servername: '5post-gate.x5.ru'
   client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+- name: '🇷🇺 Yandex — #10'
+  type: 'vless'
+  server: '51.250.0.174'
+  port: 443
+  uuid: '21453ee3-0bd0-48de-92a8-25e573e596af'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: '5post-gate.x5.ru'
+  client-fingerprint: 'qq'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Yandex — #11'
@@ -1158,20 +1143,6 @@ proxies:
   client-fingerprint: 'safari'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇷🇺 Yandex — #14'
-  type: 'vless'
-  server: '51.250.0.174'
-  port: 443
-  uuid: '852c0aa2-9997-49aa-b5aa-dacf4331884f'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇹🇷 Türkiye — #393'
   type: 'vless'
   server: '176.109.85.89'
@@ -1214,20 +1185,6 @@ proxies:
   tls: true
   servername: 'max.ru'
   client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ'
-- name: '🇷🇺 VK — #5'
-  type: 'vless'
-  server: '5.188.140.160'
-  port: 5443
-  uuid: '1e06c388-d31c-420e-916a-94a990648e34'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'qq'
   reality-opts:
     public-key: 'LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ'
 - name: '🇷🇺 Yakovlev Denis Alexandrovich — #44'
@@ -1329,7 +1286,7 @@ proxies:
   client-fingerprint: 'qq'
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #73'
+- name: '🇷🇺 Yakovlev Denis Alexandrovich — #72'
   type: 'vless'
   server: '188.68.218.101'
   port: 443
@@ -1340,9 +1297,10 @@ proxies:
   flow: 'xtls-rprx-vision'
   tls: true
   servername: 'cloud.mail.ru'
-  client-fingerprint: 'qq'
+  client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+    spider-x: '/'
 - name: '🇷🇺 Yakovlev Denis Alexandrovich — #78'
   type: 'vless'
   server: '188.68.218.101'
@@ -1373,21 +1331,7 @@ proxies:
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
     spider-x: '/'
-- name: '🇷🇺 VK — #7'
-  type: 'vless'
-  server: '5.188.140.160'
-  port: 5443
-  uuid: '1e06c388-d31c-420e-916a-94a990648e34'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ'
-- name: '🇷🇺 VK — #8'
+- name: '🇷🇺 VK — #11'
   type: 'vless'
   server: '185.86.145.231'
   port: 5443
@@ -1398,7 +1342,7 @@ proxies:
   flow: 'xtls-rprx-vision'
   tls: true
   servername: 'max.ru'
-  client-fingerprint: 'chrome'
+  client-fingerprint: 'safari'
   reality-opts:
     public-key: 'LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ'
 - name: '🇹🇷 Türkiye — #351'
@@ -1460,6 +1404,20 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+- name: '🇫🇮 Finland — #257'
+  type: 'vless'
+  server: '138.16.169.188'
+  port: 2087
+  uuid: 'ab51054f-de76-4a0f-9f3a-b44c8df86a6c'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'yastatic.net'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'Jvo3mtGzgJPAntN3FgljPoUvZZgLzOh9wPlTrzI3AiY'
 - name: '🇫🇮 Finland — #258'
   type: 'vless'
   server: '138.16.169.188'
@@ -1518,11 +1476,11 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇷🇺 Yandex — #33'
+- name: '🇷🇺 Yandex — #32'
   type: 'vless'
   server: '51.250.0.174'
   port: 443
-  uuid: '9b3c4472-a53c-4e91-a13b-987dc1bdfd29'
+  uuid: 'f0bd68f6-d228-4826-b483-60f1fa221571'
   udp: true
   skip-cert-verify: true
   network: 'raw'
@@ -1546,20 +1504,6 @@ proxies:
   client-fingerprint: 'chrome'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇷🇺 Yandex — #35'
-  type: 'vless'
-  server: '51.250.0.174'
-  port: 443
-  uuid: '9b3c4472-a53c-4e91-a13b-987dc1bdfd29'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: '5post-gate.x5.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Yandex — #36'
   type: 'vless'
   server: '51.250.0.174'
@@ -1572,6 +1516,20 @@ proxies:
   tls: true
   servername: '5post-gate.x5.ru'
   client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+- name: '🇷🇺 Yandex — #37'
+  type: 'vless'
+  server: '51.250.0.174'
+  port: 443
+  uuid: '21453ee3-0bd0-48de-92a8-25e573e596af'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'safari'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Yandex — #38'
@@ -1735,6 +1693,21 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
+- name: '🇳🇱 The Netherlands — #173'
+  type: 'vless'
+  server: '158.160.191.91'
+  port: 443
+  uuid: 'a5ea9247-79f3-4655-aece-3fb51e1e669e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'rezerv8.yunus.guru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: '6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE'
+    short-id: '34256b39b4ebb864'
 - name: '🇹🇷 Türkiye — #294'
   type: 'vless'
   server: '176.109.85.89'
@@ -1764,20 +1737,21 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #28'
+- name: '🇳🇱 The Netherlands — #47'
   type: 'vless'
-  server: '188.68.218.101'
+  server: '158.160.191.91'
   port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  uuid: 'a5ea9247-79f3-4655-aece-3fb51e1e669e'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'cloud.mail.ru'
-  client-fingerprint: 'qq'
+  servername: 'rezerv8.yunus.guru'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
+    public-key: '6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE'
+    short-id: '34256b39b4ebb864'
 - name: '🇳🇱 The Netherlands — #50'
   type: 'vless'
   server: '158.160.191.91'
@@ -1972,20 +1946,6 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇷🇺 Yandex — #15'
-  type: 'vless'
-  server: '51.250.0.174'
-  port: 443
-  uuid: 'fe8f450b-9756-4cdb-9d91-5ddd9ba4619d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Yandex — #16'
   type: 'vless'
   server: '51.250.0.174'
@@ -2030,20 +1990,20 @@ proxies:
   reality-opts:
     public-key: '6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE'
     short-id: '34256b39b4ebb864'
-- name: '🇷🇺 Yandex — #17'
+- name: '🇷🇺 Yakovlev Denis Alexandrovich — #33'
   type: 'vless'
-  server: '51.250.0.174'
+  server: '188.68.218.101'
   port: 443
-  uuid: '15fd4b23-f676-46b3-ac24-704e38236b0f'
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: 'cloud.mail.ru'
+  client-fingerprint: 'qq'
   reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
 - name: '🇷🇺 Yandex — #18'
   type: 'vless'
   server: '51.250.0.174'
@@ -2056,48 +2016,6 @@ proxies:
   tls: true
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇷🇺 Yandex — #20'
-  type: 'vless'
-  server: '51.250.0.174'
-  port: 443
-  uuid: '28872fb0-ced2-4b6b-a7e0-93290458aafb'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇷🇺 Yandex — #21'
-  type: 'vless'
-  server: '51.250.0.174'
-  port: 443
-  uuid: '00028736-dd87-4e28-851e-1b064abcee97'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇷🇺 Yandex — #22'
-  type: 'vless'
-  server: '51.250.0.174'
-  port: 443
-  uuid: '21453ee3-0bd0-48de-92a8-25e573e596af'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'qq'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Yandex — #24'
@@ -2142,6 +2060,20 @@ proxies:
   client-fingerprint: 'chrome'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+- name: '🇷🇺 Yandex — #27'
+  type: 'vless'
+  server: '51.250.0.174'
+  port: 443
+  uuid: '21453ee3-0bd0-48de-92a8-25e573e596af'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: '5post-gate.x5.ru'
+  client-fingerprint: 'safari'
+  reality-opts:
+    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Yandex — #29'
   type: 'vless'
   server: '51.250.0.174'
@@ -2184,21 +2116,6 @@ proxies:
   client-fingerprint: 'chrome'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇷🇺 aoiot.ru — #34'
-  type: 'vless'
-  server: '155.212.168.164'
-  port: 443
-  uuid: '4392b776-41a2-4300-b545-a3d2724b605b'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'msk-cloud.landcode.online'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4vIA_XIMBEZcJyLkxdi7v6FVVhc3gGru3eE5mciDyF8'
-    short-id: '26fd24aa623cadc0'
 - name: '🇹🇷 Türkiye — #482'
   type: 'vless'
   server: '176.109.85.89'
@@ -2214,6 +2131,21 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
+- name: '🇷🇺 aoiot.ru — #20'
+  type: 'vless'
+  server: '155.212.168.164'
+  port: 443
+  uuid: '4392b776-41a2-4300-b545-a3d2724b605b'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'msk-cloud.landcode.online'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: '4vIA_XIMBEZcJyLkxdi7v6FVVhc3gGru3eE5mciDyF8'
+    short-id: '26fd24aa623cadc0'
 - name: '🇷🇺 aoiot.ru — #26'
   type: 'vless'
   server: '155.212.168.164'
@@ -2230,6 +2162,21 @@ proxies:
     public-key: '4vIA_XIMBEZcJyLkxdi7v6FVVhc3gGru3eE5mciDyF8'
     short-id: '26fd24aa623cadc0'
 - name: '🇷🇺 aoiot.ru — #22'
+  type: 'vless'
+  server: '155.212.168.164'
+  port: 443
+  uuid: '4392b776-41a2-4300-b545-a3d2724b605b'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'msk-cloud.landcode.online'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: '4vIA_XIMBEZcJyLkxdi7v6FVVhc3gGru3eE5mciDyF8'
+    short-id: '26fd24aa623cadc0'
+- name: '🇷🇺 aoiot.ru — #28'
   type: 'vless'
   server: '155.212.168.164'
   port: 443
@@ -2289,6 +2236,21 @@ proxies:
   reality-opts:
     public-key: '4vIA_XIMBEZcJyLkxdi7v6FVVhc3gGru3eE5mciDyF8'
     short-id: '26fd24aa623cadc0'
+- name: '🇭🇺 Hungary — #229'
+  type: 'vless'
+  server: '46.254.19.52'
+  port: 443
+  uuid: '600ae659-7f7d-4301-9ff5-7dbb8d96c52c'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'storage.yandex.net'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: '7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg'
+    short-id: '8ba12e75110b7a9c'
 - name: '🇹🇷 Türkiye — #489'
   type: 'vless'
   server: '176.109.85.89'
@@ -2379,11 +2341,11 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇭🇺 Hungary — #242'
+- name: '🇭🇺 Hungary — #227'
   type: 'vless'
   server: '46.254.19.52'
   port: 443
-  uuid: '943734ee-814e-4f94-aa8c-798940d1bed9'
+  uuid: '87c191bb-12e8-43b3-9a57-6254339a46f6'
   udp: true
   skip-cert-verify: true
   network: 'raw'
@@ -2393,7 +2355,7 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: '7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg'
-    short-id: 'f4b4a6365558ea2e'
+    short-id: '8ba12e75110b7a9c'
 - name: '🇹🇷 Türkiye — #394'
   type: 'vless'
   server: '176.109.85.89'
