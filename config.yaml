@@ -1,4 +1,19 @@
 proxies:
+- name: '🇩🇪 Germany — #60'
+  type: 'vless'
+  server: '176.108.253.62'
+  port: 8443
+  uuid: '27c1d725-629c-4e65-9271-d6f5df82c7e9'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'updx.darkpn.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'EXRoxjZNxee7kHL4YI1ThpL-IiIrXj89gzqY5jvS6BA'
+    short-id: '1f6dffff8a'
 - name: '🇩🇪 Germany — #67'
   type: 'vless'
   server: '45.151.101.137'
@@ -32,21 +47,6 @@ proxies:
     short-id: '7824dfd19eab1acc'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
-- name: '🇩🇪 Germany — #81'
-  type: 'vless'
-  server: '89.208.231.191'
-  port: 8443
-  uuid: 'ce767cf5-c80e-0bb8-8887-af632e304782'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: '4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik'
-    short-id: 'd8c6b58bcbb0c323'
 - name: '🇩🇪 Germany — #82'
   type: 'vless'
   server: '89.208.231.191'
@@ -426,6 +426,35 @@ proxies:
     spider-x: '/5QFfdWJo6AMdStV'
   grpc-opts:
     grpc-service-name: 'grpc-ru-2053-4f7b2a'
+- name: '🇬🇧 United Kingdom — #236'
+  type: 'vless'
+  server: '77.110.113.188'
+  port: 443
+  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  tls: true
+  servername: 'www.samsung.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
+    short-id: '1559b440'
+    spider-x: '/'
+- name: '🇬🇧 United Kingdom — #237'
+  type: 'vless'
+  server: '77.110.113.188'
+  port: 443
+  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  tls: true
+  servername: 'www.samsung.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
+    short-id: '1559b440'
 - name: '🇬🇧 United Kingdom — #238'
   type: 'vless'
   server: '77.110.113.188'
@@ -440,7 +469,7 @@ proxies:
   reality-opts:
     public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
     short-id: '1559b440'
-- name: '🇬🇧 United Kingdom — #239'
+- name: '🇬🇧 United Kingdom — #240'
   type: 'vless'
   server: '77.110.113.188'
   port: 443
@@ -450,12 +479,12 @@ proxies:
   network: 'raw'
   tls: true
   servername: 'www.samsung.com'
-  client-fingerprint: 'firefox'
+  client-fingerprint: 'chrome'
   reality-opts:
     public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
     short-id: '1559b440'
     spider-x: '/'
-- name: '🇬🇧 United Kingdom — #242'
+- name: '🇬🇧 United Kingdom — #241'
   type: 'vless'
   server: '77.110.113.188'
   port: 443
@@ -465,7 +494,7 @@ proxies:
   network: 'raw'
   tls: true
   servername: 'www.samsung.com'
-  client-fingerprint: 'firefox'
+  client-fingerprint: 'chrome'
   reality-opts:
     public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
     short-id: '1559b440'
@@ -520,21 +549,6 @@ proxies:
   tls: true
   servername: 'eh.vk.com'
   client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
-    short-id: '8248954896'
-- name: '🇫🇮 Finland — #193'
-  type: 'vless'
-  server: '141.98.87.48'
-  port: 443
-  uuid: '31fb98b7-e7a1-4b56-8c6a-3f060f06393c'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'eh.vk.com'
-  client-fingerprint: 'chrome'
   reality-opts:
     public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
     short-id: '8248954896'
@@ -763,6 +777,22 @@ proxies:
   reality-opts:
     public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
     short-id: '8248954896'
+- name: '🇫🇮 Finland — #195'
+  type: 'vless'
+  server: '141.98.87.48'
+  port: 443
+  uuid: '31fb98b7-e7a1-4b56-8c6a-3f060f06393c'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'eh.vk.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
+    short-id: '8248954896'
+    spider-x: '/o7Aaf6fjwgbitolAe'
 - name: '🇫🇮 Finland — #196'
   type: 'vless'
   server: '141.98.87.48'
@@ -787,6 +817,20 @@ proxies:
   skip-cert-verify: true
   network: 'raw'
   tls: false
+- name: '🇵🇱 Poland — #306'
+  type: 'vless'
+  server: '45.11.26.63'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'id.vk.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇫🇮 Finland — #182'
   type: 'vless'
   server: '141.98.87.48'
@@ -796,6 +840,21 @@ proxies:
   skip-cert-verify: true
   network: 'raw'
   tls: false
+- name: '🇬🇧 United Kingdom — #275'
+  type: 'vless'
+  server: '77.110.113.188'
+  port: 443
+  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  tls: true
+  servername: 'www.samsung.com'
+  client-fingerprint: 'qq'
+  reality-opts:
+    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
+    short-id: '1559b440'
+    spider-x: '/'
 - name: '🇩🇪 Germany — #29'
   type: 'vless'
   server: '176.108.253.62'
@@ -811,20 +870,6 @@ proxies:
   reality-opts:
     public-key: 'EXRoxjZNxee7kHL4YI1ThpL-IiIrXj89gzqY5jvS6BA'
     short-id: '1f6dffff8a'
-- name: '🇵🇱 Poland — #362'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇹🇷 Türkiye — #352'
   type: 'vless'
   server: '176.109.85.89'
@@ -1020,6 +1065,21 @@ proxies:
   reality-opts:
     public-key: 'sXOFKo2LTiE3qg7Z68FIiwTYvhNNSAOTx9AYMuUoUnk'
     short-id: '07d3a29177aefcb6'
+- name: '🇪🇪 Estonia — #115'
+  type: 'vless'
+  server: '46.254.17.226'
+  port: 443
+  uuid: '16e51bcd-20e2-4960-a1ee-6c9a127c733e'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'wl-8-1.nodes.ac'
+  client-fingerprint: 'qq'
+  reality-opts:
+    public-key: 'knrqm393ghxJNYj-4qu2BYpwpG5_zOG5h5-H7yyyR38'
+    short-id: '0be28edc1b0278d6'
 - name: '🇫🇮 Finland — #120'
   type: 'vless'
   server: '141.98.87.48'
@@ -1088,7 +1148,7 @@ proxies:
   reality-opts:
     public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
     short-id: '1559b440'
-- name: '🇬🇧 United Kingdom — #136'
+- name: '🇬🇧 United Kingdom — #134'
   type: 'vless'
   server: '77.110.113.188'
   port: 443
@@ -1102,6 +1162,7 @@ proxies:
   reality-opts:
     public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
     short-id: '1559b440'
+    spider-x: '/'
 - name: '🇬🇧 United Kingdom — #137'
   type: 'vless'
   server: '77.110.113.188'
@@ -1117,35 +1178,6 @@ proxies:
     public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
     short-id: '1559b440'
     spider-x: '/'
-- name: '🇬🇧 United Kingdom — #138'
-  type: 'vless'
-  server: '77.110.113.188'
-  port: 443
-  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  tls: true
-  servername: 'www.samsung.com'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
-    short-id: '1559b440'
-    spider-x: '/'
-- name: '🇵🇱 Poland — #273'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇫🇮 Finland — #132'
   type: 'vless'
   server: '141.98.87.48'
@@ -1161,6 +1193,22 @@ proxies:
   reality-opts:
     public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
     short-id: '8248954896'
+- name: '🇫🇮 Finland — #134'
+  type: 'vless'
+  server: '141.98.87.48'
+  port: 443
+  uuid: '31fb98b7-e7a1-4b56-8c6a-3f060f06393c'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'eh.vk.com'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
+    short-id: '8248954896'
+    spider-x: '/o7Aaf6fjwgbitolAe'
 - name: '🇫🇮 Finland — #135'
   type: 'vless'
   server: '141.98.87.48'
@@ -1185,34 +1233,6 @@ proxies:
   skip-cert-verify: true
   network: 'raw'
   tls: false
-- name: '🇵🇱 Poland — #294'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
-- name: '🇵🇱 Poland — #296'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇹🇷 Türkiye — #300'
   type: 'vless'
   server: '176.109.85.89'
@@ -1228,6 +1248,20 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
+- name: '🇵🇱 Poland — #298'
+  type: 'vless'
+  server: '45.11.26.63'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'id.vk.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇹🇷 Türkiye — #294'
   type: 'vless'
   server: '176.109.85.89'
@@ -1239,6 +1273,21 @@ proxies:
   tls: true
   servername: 'id.pervye.ru'
   client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
+  grpc-opts:
+    grpc-service-name: 'ns'
+- name: '🇹🇷 Türkiye — #264'
+  type: 'vless'
+  server: '176.109.85.89'
+  port: 2443
+  uuid: 'f14a4abb-ecb9-4be4-8a99-3d3895ab3464'
+  udp: true
+  skip-cert-verify: true
+  network: 'grpc'
+  tls: true
+  servername: 'id.pervye.ru'
+  client-fingerprint: 'qq'
   reality-opts:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
@@ -1362,22 +1411,6 @@ proxies:
   reality-opts:
     public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
     short-id: '8248954896'
-- name: '🇫🇮 Finland — #105'
-  type: 'vless'
-  server: '141.98.87.48'
-  port: 443
-  uuid: '31fb98b7-e7a1-4b56-8c6a-3f060f06393c'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'eh.vk.com'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
-    short-id: '8248954896'
-    spider-x: '/o7Aaf6fjwgbitolAe'
 - name: '🇫🇮 Finland — #63'
   type: 'vless'
   server: '141.98.87.48'
@@ -1393,22 +1426,6 @@ proxies:
   reality-opts:
     public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
     short-id: '8248954896'
-- name: '🇫🇮 Finland — #64'
-  type: 'vless'
-  server: '141.98.87.48'
-  port: 443
-  uuid: '31fb98b7-e7a1-4b56-8c6a-3f060f06393c'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'eh.vk.com'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
-    short-id: '8248954896'
-    spider-x: '/o7Aaf6fjwgbitolAe'
 - name: '🇫🇮 Finland — #65'
   type: 'vless'
   server: '141.98.87.48'
@@ -1543,7 +1560,7 @@ proxies:
   reality-opts:
     public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
     short-id: '8248954896'
-- name: '🇫🇮 Finland — #72'
+- name: '🇫🇮 Finland — #71'
   type: 'vless'
   server: '141.98.87.48'
   port: 443
@@ -1558,6 +1575,7 @@ proxies:
   reality-opts:
     public-key: 'yhUfTGgu5PYRlFqMnRZkxffH_aU05AFUToGI8_EKF28'
     short-id: '8248954896'
+    spider-x: '/o7Aaf6fjwgbitolAe'
 - name: '🇫🇮 Finland — #74'
   type: 'vless'
   server: '141.98.87.48'
@@ -1597,20 +1615,6 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇵🇱 Poland — #335'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇹🇷 Türkiye — #339'
   type: 'vless'
   server: '176.109.85.89'
@@ -1686,6 +1690,20 @@ proxies:
   reality-opts:
     public-key: 'vb-UuFZPZauhD07Vh4-7DOYN-pjpqPhjN4U1I8h2aSg'
     short-id: '937495ff48a2a850'
+- name: '🇷🇺 Yandex — #8'
+  type: 'vless'
+  server: '51.250.0.174'
+  port: 443
+  uuid: 'a7081b03-ae75-4e22-a493-9c58e27285b5'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇷🇺 Yandex — #9'
   type: 'vless'
   server: '51.250.0.174'
@@ -1697,6 +1715,20 @@ proxies:
   flow: 'xtls-rprx-vision'
   tls: true
   servername: 'ads.x5.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+- name: '🇷🇺 Yandex — #10'
+  type: 'vless'
+  server: '51.250.0.174'
+  port: 443
+  uuid: 'a86c53fc-9230-4526-ab64-a7f00d37b287'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: '5post-gate.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
@@ -1774,20 +1806,6 @@ proxies:
   reality-opts:
     public-key: '5M0khPdwiXYhayuP4i76J1am-q85Sno7vGnqEnZ1ngI'
     short-id: 'ccaaaa'
-- name: '🇵🇱 Poland — #388'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇹🇷 Türkiye — #377'
   type: 'vless'
   server: '176.109.85.89'
@@ -1803,21 +1821,7 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇵🇱 Poland — #470'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
-- name: '🇵🇱 Poland — #471'
+- name: '🇵🇱 Poland — #344'
   type: 'vless'
   server: '45.11.26.63'
   port: 443
@@ -1831,6 +1835,21 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
+- name: '🇷🇺 aoiot.ru — #34'
+  type: 'vless'
+  server: '155.212.168.164'
+  port: 443
+  uuid: '4392b776-41a2-4300-b545-a3d2724b605b'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'msk-cloud.landcode.online'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: '4vIA_XIMBEZcJyLkxdi7v6FVVhc3gGru3eE5mciDyF8'
+    short-id: '26fd24aa623cadc0'
 - name: '🇵🇱 Poland — #476'
   type: 'vless'
   server: '45.11.26.63'
@@ -2062,6 +2081,20 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
+- name: '🇵🇱 Poland — #573'
+  type: 'vless'
+  server: '45.11.26.63'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'id.vk.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇹🇷 Türkiye — #589'
   type: 'vless'
   server: '176.109.85.89'
@@ -2362,48 +2395,6 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇵🇱 Poland — #244'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
-- name: '🇵🇱 Poland — #246'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
-- name: '🇵🇱 Poland — #247'
-  type: 'vless'
-  server: '45.11.26.63'
-  port: 443
-  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'id.vk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇹🇷 Türkiye — #251'
   type: 'vless'
   server: '176.109.85.89'
@@ -2573,6 +2564,20 @@ proxies:
     short-id: '5b9dc5fe4ad87cc2'
   grpc-opts:
     grpc-service-name: 'grpc-direct'
+- name: '🇵🇱 Poland — #240'
+  type: 'vless'
+  server: '45.11.26.63'
+  port: 443
+  uuid: '967b2fad-bb2a-46d1-8efb-3bfda81f7f92'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'id.vk.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU'
 - name: '🇵🇱 Poland — #241'
   type: 'vless'
   server: '5.188.140.216'
