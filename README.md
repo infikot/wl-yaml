@@ -18,4 +18,4 @@ Boosty: https://boosty.to/infikot
 
 ## Оригинальный README.md | Поддержать оригинального автора
 https://github.com/zieng2/wl/blob/main/README.md
-```
+
