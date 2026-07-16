@@ -35,65 +35,22 @@ proxies:
     grpc-service-name: 'cloud'
 - name: '🇩🇪 Germany — #88'
   type: 'vless'
-  server: '81.163.22.231'
-  port: 47884
-  uuid: 'c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692'
+  server: '178.176.128.128'
+  port: 443
+  uuid: '574257bf-77f8-4182-8f08-1789af3f339c'
   udp: true
   skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'kinopoisk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14'
-    short-id: '847a06884457c506'
-  grpc-opts:
-    grpc-service-name: 'cloud'
-- name: '🇩🇪 Germany — #89'
-  type: 'vless'
-  server: '77.222.35.10'
-  port: 2200
-  uuid: 'd4aad26f-70b6-4411-8517-17f7b4281886'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
+  network: 'xhttp'
+  alpn:
+  - 'h2'
+  - 'http/1.1'
   tls: false
-  ws-opts:
-    path: '/v1'
-- name: '🇩🇪 Germany — #94'
-  type: 'vless'
-  server: '45.151.101.137'
-  port: 2053
-  uuid: 'a9a96ecb-0d66-5809-a833-7a7431c1ca60'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'www.amazon.com'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'l_C0QQhMVDqhDT3-_AS8cBoOOhKksv8ubX4cf4EVjwo'
-    short-id: '17'
-    spider-x: '/5QFfdWJo6AMdStV'
-  grpc-opts:
-    grpc-service-name: 'grpc-ru-2053-4f7b2a'
-- name: '🇩🇪 Germany — #95'
-  type: 'vless'
-  server: '81.163.22.231'
-  port: 47884
-  uuid: 'c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'kinopoisk.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: '4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14'
-    short-id: '847a06884457c506'
-  grpc-opts:
-    grpc-service-name: 'cloud'
-- name: '🇩🇪 Germany — #96'
+  servername: 'third.spaniolo.site'
+  client-fingerprint: 'edge'
+  xhttp-opts:
+    path: '/api/uploadFile/'
+    host: 'third.spaniolo.site'
+- name: '🇩🇪 Germany — #89'
   type: 'vless'
   server: '81.163.22.231'
   port: 47884
@@ -110,50 +67,58 @@ proxies:
     spider-x: '/'
   grpc-opts:
     grpc-service-name: 'cloud'
-- name: '🇩🇪 Germany — #97'
+- name: '🇩🇪 Germany — #94'
   type: 'vless'
-  server: '81.163.22.231'
-  port: 47884
-  uuid: 'c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692'
+  server: '188.72.103.3'
+  port: 443
+  uuid: '65256f89-7945-42ff-8572-9b174277bd3c'
   udp: true
   skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'kinopoisk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14'
-    short-id: '847a06884457c506'
-  grpc-opts:
-    grpc-service-name: 'cloud'
-- name: '🇩🇪 Germany — #100'
-  type: 'vless'
-  server: '81.163.22.231'
-  port: 47884
-  uuid: 'c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'kinopoisk.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14'
-    short-id: '847a06884457c506'
-  grpc-opts:
-    grpc-service-name: 'cloud'
-- name: '🇩🇪 Germany — #101'
-  type: 'vless'
-  server: '77.222.35.10'
-  port: 2200
-  uuid: 'd4aad26f-70b6-4411-8517-17f7b4281886'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
+  network: 'xhttp'
+  alpn:
+  - 'h2'
+  - 'http/1.1'
   tls: false
-  ws-opts:
-    path: '/v1'
-- name: '🇩🇪 Germany — #105'
+  servername: 'apple.dbintro.space'
+  client-fingerprint: 'edge'
+  xhttp-opts:
+    path: '/assets/js/chunk-a91a/'
+    host: 'apple.dbintro.space'
+- name: '🇩🇪 Germany — #95'
+  type: 'vless'
+  server: '178.176.128.128'
+  port: 443
+  uuid: 'efc0c299-d9d3-4b1f-81b1-e219d7e17256'
+  udp: true
+  skip-cert-verify: true
+  network: 'xhttp'
+  alpn:
+  - 'h2'
+  - 'http/1.1'
+  tls: false
+  servername: 'third.spaniolo.site'
+  client-fingerprint: 'edge'
+  xhttp-opts:
+    path: '/api/uploadFile/'
+    host: 'third.spaniolo.site'
+- name: '🇩🇪 Germany — #96'
+  type: 'vless'
+  server: '178.176.128.128'
+  port: 443
+  uuid: '74d4ce55-c337-4fc4-be9f-57901235d329'
+  udp: true
+  skip-cert-verify: true
+  network: 'xhttp'
+  alpn:
+  - 'h2'
+  - 'http/1.1'
+  tls: false
+  servername: 'third.spaniolo.site'
+  client-fingerprint: 'edge'
+  xhttp-opts:
+    path: '/api/uploadFile/'
+    host: 'third.spaniolo.site'
+- name: '🇩🇪 Germany — #97'
   type: 'vless'
   server: '81.163.22.231'
   port: 47884
@@ -169,7 +134,54 @@ proxies:
     short-id: '847a06884457c506'
   grpc-opts:
     grpc-service-name: 'cloud'
-- name: '🇳🇱 The Netherlands — #219'
+- name: '🇩🇪 Germany — #100'
+  type: 'vless'
+  server: '188.72.103.3'
+  port: 443
+  uuid: 'efc0c299-d9d3-4b1f-81b1-e219d7e17256'
+  udp: true
+  skip-cert-verify: true
+  network: 'xhttp'
+  alpn:
+  - 'h2'
+  - 'http/1.1'
+  tls: false
+  servername: 'apple.dbintro.space'
+  client-fingerprint: 'edge'
+  xhttp-opts:
+    path: '/assets/js/chunk-a91a/'
+    host: 'apple.dbintro.space'
+- name: '🇩🇪 Germany — #101'
+  type: 'vless'
+  server: '188.72.103.3'
+  port: 443
+  uuid: '574257bf-77f8-4182-8f08-1789af3f339c'
+  udp: true
+  skip-cert-verify: true
+  network: 'xhttp'
+  alpn:
+  - 'h2'
+  - 'http/1.1'
+  tls: false
+  servername: 'apple.dbintro.space'
+  client-fingerprint: 'edge'
+  xhttp-opts:
+    path: '/assets/js/chunk-a91a/'
+    host: 'apple.dbintro.space'
+- name: '🇩🇪 Germany — #105'
+  type: 'vless'
+  server: '89.127.217.9'
+  port: 2200
+  uuid: '9501f3d6-483f-45c1-ab2c-33266520cd5c'
+  udp: true
+  skip-cert-verify: true
+  network: 'ws'
+  tls: false
+  ws-opts:
+    path: '/v1'
+    headers:
+      Host: 'rzd.ru'
+- name: '🇳🇱 The Netherlands — #218'
   type: 'vless'
   server: '72.56.4.94'
   port: 443
@@ -180,70 +192,90 @@ proxies:
   flow: 'xtls-rprx-vision'
   tls: true
   servername: 'www.gosuslugi.ru'
-  client-fingerprint: 'qq'
+  client-fingerprint: 'chrome'
   reality-opts:
     public-key: 'ra-OyOGZwj9ZApabpTq2sZWIzub52UfzLvnfw1utsQg'
     short-id: '23637807'
 - name: '🇳🇱 The Netherlands — #220'
   type: 'vless'
-  server: '192.144.57.152'
-  port: 447
-  uuid: '3bafe192-f47b-40c2-9bd2-fe8c3d1c3e6d'
+  server: '37.9.4.22'
+  port: 443
+  uuid: '04b3ed78-61b5-42bb-9143-eeb70e64b5aa'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: '5post-gate.x5.ru'
+  client-fingerprint: 'qq'
   reality-opts:
-    public-key: 'weSBb2pHXmOg1gVjtNRN48p9gUpTfuu6Lu206Q5W4Bk'
-    short-id: 'c226283c4de5b1ad'
+    public-key: 'n1uGKWu7avfpa33tzCB2BnZa0R5SkP49zK5_Md6f2mQ'
+- name: '🇳🇱 The Netherlands — #240'
+  type: 'vless'
+  server: '194.87.69.48'
+  port: 56139
+  uuid: '3c1b7d06-04fe-4eb4-8168-88fcf2e6de30'
+  udp: true
+  skip-cert-verify: true
+  network: 'grpc'
+  tls: true
+  servername: 'ymail.com'
+  client-fingerprint: 'qq'
+  reality-opts:
+    public-key: 'VGgITHXeTkrdpV5kbe61YWS0AuMmls6B5UIIeWY3AVs'
+    short-id: '3ee4e040'
+  grpc-opts:
+    grpc-service-name: ''
 - name: '🇳🇱 The Netherlands — #241'
   type: 'vless'
-  server: '192.144.57.152'
-  port: 447
-  uuid: '3bafe192-f47b-40c2-9bd2-fe8c3d1c3e6d'
+  server: '194.87.69.48'
+  port: 56139
+  uuid: '3c1b7d06-04fe-4eb4-8168-88fcf2e6de30'
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: 'grpc'
   tls: true
-  servername: 'ads.x5.ru'
+  servername: 'ymail.com'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'weSBb2pHXmOg1gVjtNRN48p9gUpTfuu6Lu206Q5W4Bk'
-    short-id: 'c226283c4de5b1ad'
+    public-key: 'VGgITHXeTkrdpV5kbe61YWS0AuMmls6B5UIIeWY3AVs'
+    short-id: '3ee4e040'
+  grpc-opts:
+    grpc-service-name: ''
 - name: '🇳🇱 The Netherlands — #257'
   type: 'vless'
-  server: '212.233.78.243'
-  port: 8443
-  uuid: '68d3fcbe-f025-1f40-82d6-9455c5e5f6b5'
+  server: '188.72.103.3'
+  port: 443
+  uuid: '2c1e00fe-ef78-4fd6-8f31-a616d15e6e50'
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'secget.ru'
+  network: 'xhttp'
+  alpn:
+  - 'h2'
+  - 'http/1.1'
+  tls: false
+  servername: 'cdnyan5.floatingcars.net'
   client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'vV3mxSgZ-8x3Gp373AXdMDM3FAdmLP0v5zIfI486SDI'
-    short-id: 'f8a8ee8381529673'
+  xhttp-opts:
+    path: '/media/live/'
+    host: 'cdnyan5.floatingcars.net'
 - name: '🇳🇱 The Netherlands — #258'
   type: 'vless'
-  server: '212.233.78.246'
-  port: 8443
-  uuid: '68d3fcbe-f025-1f40-82d6-9455c5e5f6b5'
+  server: '188.72.103.3'
+  port: 443
+  uuid: '2c1e00fe-ef78-4fd6-8f31-a616d15e6e50'
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'secget.ru'
+  network: 'xhttp'
+  alpn:
+  - 'h2'
+  - 'http/1.1'
+  tls: false
+  servername: 'cdnyan6.floatingcars.net'
   client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'vV3mxSgZ-8x3Gp373AXdMDM3FAdmLP0v5zIfI486SDI'
-    short-id: 'f8a8ee8381529673'
+  xhttp-opts:
+    path: '/media/live/'
+    host: 'cdnyan6.floatingcars.net'
 - name: '🇳🇱 The Netherlands — #261'
   type: 'vless'
   server: '194.55.239.167'
@@ -290,72 +322,103 @@ proxies:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
 - name: '🇩🇪 Germany — #113'
   type: 'vless'
-  server: '217.177.74.37'
-  port: 2200
-  uuid: 'd4aad26f-70b6-4411-8517-17f7b4281886'
+  server: '81.163.22.231'
+  port: 47884
+  uuid: 'c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692'
   udp: true
   skip-cert-verify: true
-  network: 'ws'
-  tls: false
-  ws-opts:
-    path: '/v1'
+  network: 'grpc'
+  tls: true
+  servername: 'kinopoisk.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: '4kfgvWhvI42Kjaf9y8Pw006LCSUQyeiosQSNa2RrK14'
+    short-id: '847a06884457c506'
+    spider-x: '/'
+  grpc-opts:
+    grpc-service-name: 'cloud'
+- name: '🇩🇪 Germany — #117'
+  type: 'vless'
+  server: '84.201.164.23'
+  port: 443
+  uuid: 'cfccf79f-c1d7-4e2d-b779-0df129d5fa69'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'random'
+  reality-opts:
+    public-key: 'I_mMGeQ8r529dq2LjFUzv0nb74zuux2zGWT2RfKuE14'
+    short-id: '27e53bbcab7593d7'
+    spider-x: '/'
 - name: '🇩🇪 Germany — #118'
   type: 'vless'
-  server: '130.17.2.28'
-  port: 2200
-  uuid: '9501f3d6-483f-45c1-ab2c-33266520cd5c'
+  server: '185.229.9.32'
+  port: 443
+  uuid: 'cfccf79f-c1d7-4e2d-b779-0df129d5fa69'
   udp: true
   skip-cert-verify: true
-  network: 'ws'
-  tls: false
-  ws-opts:
-    path: '/v1'
-    headers:
-      Host: 'rzd.ru'
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'max.ru'
+  client-fingerprint: 'random'
+  reality-opts:
+    public-key: '437aLH3no_OoVjc1kHenwwiLl02NVggpFLESF-Nu1Fs'
+    short-id: '27e53bbcab7593d7'
+    spider-x: '/'
 - name: '🇩🇪 Germany — #119'
   type: 'vless'
-  server: '51.250.44.66'
+  server: '51.250.30.235'
   port: 443
-  uuid: 'bbae962a-b6e9-46e6-990c-6abf13e6b075'
+  uuid: 'cfccf79f-c1d7-4e2d-b779-0df129d5fa69'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: 'max.ru'
+  client-fingerprint: 'random'
   reality-opts:
-    public-key: 'MZ4v9kcs6nnAKuCAz4pvViC50BoM3exoL_5Yi-1b1kE'
-    short-id: '59de66570907b747'
+    public-key: 'BjG7XoEMR2uxHbBk_rtkR7P_S_luG2VcvQlvZ4YHzH8'
+    short-id: '27e53bbcab7593d7'
+    spider-x: '/'
 - name: '🇩🇪 Germany — #120'
   type: 'vless'
-  server: '51.250.44.66'
+  server: '185.229.9.222'
   port: 443
-  uuid: 'bbae962a-b6e9-46e6-990c-6abf13e6b075'
+  uuid: 'cfccf79f-c1d7-4e2d-b779-0df129d5fa69'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
+  servername: 'max.ru'
   client-fingerprint: 'qq'
   reality-opts:
-    public-key: 'MZ4v9kcs6nnAKuCAz4pvViC50BoM3exoL_5Yi-1b1kE'
-    short-id: '59de66570907b747'
+    public-key: '437aLH3no_OoVjc1kHenwwiLl02NVggpFLESF-Nu1Fs'
+    short-id: '27e53bbcab7593d7'
+    spider-x: '/'
 - name: '🇩🇪 Germany — #122'
   type: 'vless'
-  server: '89.127.197.71'
-  port: 2200
-  uuid: 'd4aad26f-70b6-4411-8517-17f7b4281886'
+  server: '195.209.88.158'
+  port: 443
+  uuid: 'cfccf79f-c1d7-4e2d-b779-0df129d5fa69'
   udp: true
   skip-cert-verify: true
   network: 'ws'
+  alpn:
+  - 'http/1.1'
   tls: false
+  servername: 's92415.cdn.ngenix.net'
+  client-fingerprint: 'chrome'
   ws-opts:
-    path: '/v1'
+    path: '/v1/data/sync/'
 - name: '🇬🇧 United Kingdom — #178'
   type: 'vless'
-  server: '87.242.86.80'
+  server: '87.242.86.156'
   port: 443
   uuid: '29fc5b31-d2f1-4528-9296-07f3ee148d9c'
   udp: true
@@ -414,48 +477,48 @@ proxies:
     grpc-service-name: 'ns'
 - name: '🇺🇸 United States — #309'
   type: 'vless'
-  server: '164.138.100.203'
+  server: '45.146.131.100'
   port: 443
-  uuid: 'c841c754-530e-46ed-a622-d03fb080034c'
+  uuid: 'a77cedab-f429-40bb-b6d4-fd9dd681e675'
   udp: true
   skip-cert-verify: true
-  network: 'grpc'
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'firefox'
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'qq'
   reality-opts:
-    public-key: '_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA'
-    short-id: '10ffb85da1c2d986'
-  grpc-opts:
-    grpc-service-name: 'us-br-yandex'
+    public-key: 'Q6Ecoq-ZFheEcp1gFcApiPpmefrqodpu70EQP6VHWyw'
+    short-id: 'beca6be41a356c'
 - name: '🇷🇺 cloud.ru — #17'
   type: 'vless'
-  server: '185.50.203.154'
+  server: '176.109.104.147'
   port: 443
-  uuid: '29fc5b31-d2f1-4528-9296-07f3ee148d9c'
+  uuid: '8a22fde8-e72e-4ce2-96f6-285aeffe66a2'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'sellflow.org'
+  servername: 'eh.vk.com'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+    public-key: 'JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY'
+    short-id: '6c6082a2223c1d03'
 - name: '🇬🇧 United Kingdom — #179'
   type: 'vless'
-  server: '87.242.86.156'
+  server: '77.110.113.188'
   port: 443
-  uuid: '29fc5b31-d2f1-4528-9296-07f3ee148d9c'
+  uuid: '218fd696-e3a2-4c33-b397-a5f13a82969e'
   udp: true
   skip-cert-verify: true
   network: 'raw'
-  flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'gb.sellflow.org'
-  client-fingerprint: 'firefox'
+  servername: 'www.samsung.com'
+  client-fingerprint: 'chrome'
   reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+    public-key: '4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw'
+    short-id: '1559b440'
 - name: '🇵🇱 Poland — #308'
   type: 'vless'
   server: '80.249.150.24'
@@ -519,18 +582,20 @@ proxies:
     grpc-service-name: 'neurex'
 - name: '🇬🇧 United Kingdom — #195'
   type: 'vless'
-  server: '87.242.86.156'
+  server: '84.201.174.157'
   port: 443
-  uuid: '29fc5b31-d2f1-4528-9296-07f3ee148d9c'
+  uuid: 'cf2c0864-69e5-4e94-b0be-9e9e08fe85fc'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'gb.sellflow.org'
-  client-fingerprint: 'firefox'
+  servername: 'web.max.ru'
+  client-fingerprint: 'qq'
   reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+    public-key: '1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs'
+    short-id: '428ef87fd47a3a32'
+    spider-x: '/'
 - name: '🇵🇱 Poland — #298'
   type: 'vless'
   server: '193.124.128.144'
@@ -548,18 +613,19 @@ proxies:
     short-id: 'c226283c4de5b1ad'
 - name: '🇷🇺 cloud.ru — #18'
   type: 'vless'
-  server: '185.50.203.154'
+  server: '176.109.106.6'
   port: 443
-  uuid: '29fc5b31-d2f1-4528-9296-07f3ee148d9c'
+  uuid: '8a22fde8-e72e-4ce2-96f6-285aeffe66a2'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'sellflow.org'
+  servername: 'eh.vk.com'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+    public-key: 'JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY'
+    short-id: '6c6082a2223c1d03'
 - name: '🇹🇷 Türkiye — #294'
   type: 'vless'
   server: '176.109.85.89'
@@ -575,21 +641,21 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇵🇱 Poland — #262'
+- name: '🇵🇱 Poland — #261'
   type: 'vless'
-  server: '193.124.128.144'
-  port: 446
-  uuid: '67cad96e-9bfe-48b7-bd85-1acb66a7a937'
+  server: '80.249.150.24'
+  port: 443
+  uuid: '1281ef13-f1cd-493b-903e-4c2f4ffe1eba'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'ads.x5.ru'
+  servername: 'dzen.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: '2EmWIOV_DOnYyCtoH0_0ccFMT-JBGR-UGhiMnwR6dxs'
-    short-id: 'c226283c4de5b1ad'
+    public-key: 'olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA'
+    short-id: '7c83683ed7507a69'
 - name: '🇹🇷 Türkiye — #264'
   type: 'vless'
   server: '176.109.85.89'
@@ -681,21 +747,6 @@ proxies:
   reality-opts:
     public-key: 'olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA'
     short-id: '7c83683ed7507a69'
-- name: '🇩🇪 Germany — #163'
-  type: 'vless'
-  server: '193.124.128.179'
-  port: 444
-  uuid: '97b5584b-e987-41ff-a757-1cb88bc6eef1'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'fSMsZ-goYQ3VoDgZgpYbipup3fbKv1TXFLGH0kN_LmY'
-    short-id: 'c226283c4de5b1ad'
 - name: '🇫🇷 France — #185'
   type: 'vless'
   server: '192.144.13.35'
@@ -707,19 +758,20 @@ proxies:
   tls: false
 - name: '🇬🇧 United Kingdom — #202'
   type: 'vless'
-  server: '194.55.239.191'
-  port: 8443
-  uuid: 'ecad47b0-249e-0019-adff-e3c8f02b1897'
+  server: '158.160.47.253'
+  port: 443
+  uuid: 'cf2c0864-69e5-4e94-b0be-9e9e08fe85fc'
   udp: true
   skip-cert-verify: true
   network: 'raw'
   flow: 'xtls-rprx-vision'
   tls: true
-  servername: 'smartcaptcha.yandexcloud.net'
-  client-fingerprint: 'firefox'
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'qq'
   reality-opts:
-    public-key: '10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc'
-    short-id: '43dcff53849b81e6'
+    public-key: '1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs'
+    short-id: '428ef87fd47a3a32'
+    spider-x: '/'
 - name: '🇹🇷 Türkiye — #359'
   type: 'vless'
   server: '176.109.85.89'
@@ -750,22 +802,16 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇪🇪 Estonia — #166'
+- name: '🇫🇷 France — #191'
   type: 'vless'
-  server: '72.56.55.26'
-  port: 443
-  uuid: 'ecad47b0-249e-00ad-adff-e3c8f02b1897'
+  server: '192.144.13.35'
+  port: 18054
+  uuid: '48c6e7a4-423b-4bad-b4a1-18527abc38cb'
   udp: true
   skip-cert-verify: true
   network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'auto.quattro-tech.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc'
-    short-id: '43dcff53849b81e6'
-- name: '🇫🇷 France — #191'
+  tls: false
+- name: '🇫🇷 France — #193'
   type: 'vless'
   server: '192.144.13.35'
   port: 18054
@@ -832,7 +878,7 @@ proxies:
   type: 'vless'
   server: '217.168.247.209'
   port: 16923
-  uuid: 'c841c754-530e-46ed-a622-d03fb080034c'
+  uuid: 'c1ad576a-302d-4bd2-9549-77c0b32e2027'
   udp: true
   skip-cert-verify: true
   network: 'grpc'
@@ -848,7 +894,7 @@ proxies:
   type: 'vless'
   server: '217.168.247.209'
   port: 16923
-  uuid: 'c1ad576a-302d-4bd2-9549-77c0b32e2027'
+  uuid: 'c1a60d3d-e15b-4d66-96b1-511678b7eac9'
   udp: true
   skip-cert-verify: true
   network: 'grpc'
@@ -923,21 +969,6 @@ proxies:
   reality-opts:
     public-key: 'olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA'
     short-id: '7c83683ed7507a69'
-- name: '🇪🇪 Estonia — #152'
-  type: 'vless'
-  server: '72.56.55.26'
-  port: 443
-  uuid: 'ecad47b0-249e-00ad-adff-e3c8f02b1897'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'auto.quattro-tech.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc'
-    short-id: '43dcff53849b81e6'
 - name: '🇵🇱 Poland — #300'
   type: 'vless'
   server: '164.138.100.201'
@@ -1162,21 +1193,6 @@ proxies:
   reality-opts:
     public-key: 'olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA'
     short-id: '7c83683ed7507a69'
-- name: '🇵🇱 Poland — #422'
-  type: 'vless'
-  server: '80.249.150.24'
-  port: 443
-  uuid: 'e5573bd4-6b10-4010-a67d-54ea2b51e8bf'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'dzen.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA'
-    short-id: '7c83683ed7507a69'
 - name: '🇹🇷 Türkiye — #473'
   type: 'vless'
   server: '176.109.85.89'
@@ -1252,6 +1268,21 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
+- name: '🇵🇱 Poland — #401'
+  type: 'vless'
+  server: '80.249.150.24'
+  port: 443
+  uuid: '1281ef13-f1cd-493b-903e-4c2f4ffe1eba'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'dzen.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA'
+    short-id: '7c83683ed7507a69'
 - name: '🇵🇱 Poland — #402'
   type: 'vless'
   server: '80.249.150.24'
@@ -1269,9 +1300,9 @@ proxies:
     short-id: '7c83683ed7507a69'
 - name: '🇷🇺 VDSina — #39'
   type: 'vless'
-  server: '192.144.57.152'
+  server: '138.16.184.123'
   port: 2087
-  uuid: '3bafe192-f47b-40c2-9bd2-fe8c3d1c3e6d'
+  uuid: '81ef8e1d-4d31-4c1b-92e8-d2e65e7ffaf4'
   udp: true
   skip-cert-verify: true
   network: 'grpc'
@@ -1279,7 +1310,7 @@ proxies:
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'weSBb2pHXmOg1gVjtNRN48p9gUpTfuu6Lu206Q5W4Bk'
+    public-key: 'n9tFDSBvLVWje_hxPG5QqEZIf-ZhqbNH-i1PfmAHYkQ'
     short-id: 'c226283c4de5b1ad'
   grpc-opts:
     grpc-service-name: 'grpc'
@@ -1300,9 +1331,9 @@ proxies:
     short-id: 'beca6be41a356c'
 - name: '🇫🇷 France — #175'
   type: 'vless'
-  server: '138.16.184.123'
-  port: 444
-  uuid: '81ef8e1d-4d31-4c1b-92e8-d2e65e7ffaf4'
+  server: '138.16.162.154'
+  port: 447
+  uuid: '5ca41e39-0c15-45c4-9cba-5aa41039c6b3'
   udp: true
   skip-cert-verify: true
   network: 'raw'
@@ -1311,7 +1342,7 @@ proxies:
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'n9tFDSBvLVWje_hxPG5QqEZIf-ZhqbNH-i1PfmAHYkQ'
+    public-key: 'fJd4UrCVRV4Al_Q5RdSavkgEseYBk2Ojly4lC7ZYK3I'
     short-id: 'c226283c4de5b1ad'
 - name: '🇹🇷 Türkiye — #384'
   type: 'vless'
@@ -1493,21 +1524,6 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇺🇸 United States — #455'
-  type: 'vless'
-  server: '77.110.105.8'
-  port: 443
-  uuid: 'a77cedab-f429-40bb-b6d4-fd9dd681e675'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: '0PnqacTQXVv54actCNfJqJGpilQEIxD-puUERPulLz8'
-    short-id: 'cc36dcdaed'
 - name: '🇹🇷 Türkiye — #358'
   type: 'vless'
   server: '176.109.85.89'
@@ -1778,6 +1794,21 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
+- name: '🇫🇷 France — #176'
+  type: 'vless'
+  server: '138.16.163.121'
+  port: 446
+  uuid: 'a198302e-b16f-4955-adf0-d83f16970294'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'ads.x5.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'r3AQoDOR85A5hIACoKWHbZe95vodV3Cfxi_LWDenelo'
+    short-id: 'c226283c4de5b1ad'
 - name: '🇵🇱 Poland — #301'
   type: 'vless'
   server: '192.144.57.152'
@@ -1869,21 +1900,6 @@ proxies:
   grpc-opts:
     grpc-service-name: 'ns'
 - name: '🇹🇷 Türkiye — #252'
-  type: 'vless'
-  server: '176.109.85.89'
-  port: 2443
-  uuid: 'f14a4abb-ecb9-4be4-8a99-3d3895ab3464'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'id.pervye.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
-  grpc-opts:
-    grpc-service-name: 'ns'
-- name: '🇹🇷 Türkiye — #253'
   type: 'vless'
   server: '176.109.85.89'
   port: 2443
@@ -2197,6 +2213,21 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+- name: '🇳🇴 Norway — #312'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
 - name: '🇵🇱 Poland — #318'
   type: 'vless'
   server: '80.249.150.24'
@@ -2212,6 +2243,21 @@ proxies:
   reality-opts:
     public-key: 'olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA'
     short-id: '7c83683ed7507a69'
+- name: '🇳🇴 Norway — #343'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
 - name: '🇷🇺 cloud.ru — #27'
   type: 'vless'
   server: '185.50.203.154'
@@ -2240,6 +2286,21 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+- name: '🇳🇴 Norway — #226'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
 - name: '🇳🇴 Norway — #228'
   type: 'vless'
   server: '62.152.56.110'
@@ -2285,7 +2346,7 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇳🇴 Norway — #339'
+- name: '🇳🇴 Norway — #337'
   type: 'vless'
   server: '62.152.56.110'
   port: 6443
@@ -2329,36 +2390,6 @@ proxies:
   client-fingerprint: 'firefox'
   reality-opts:
     public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-- name: '🇳🇴 Norway — #367'
-  type: 'vless'
-  server: '62.152.56.110'
-  port: 6443
-  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
-    short-id: '45ba91f179ad1f26'
-- name: '🇳🇴 Norway — #368'
-  type: 'vless'
-  server: '62.152.56.110'
-  port: 6443
-  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
-    short-id: '45ba91f179ad1f26'
 - name: '🇹🇷 Türkiye — #438'
   type: 'vless'
   server: '176.109.85.89'
@@ -2374,6 +2405,21 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
+- name: '🇳🇴 Norway — #375'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
 - name: '🇹🇷 Türkiye — #419'
   type: 'vless'
   server: '176.109.85.89'
@@ -2434,6 +2480,21 @@ proxies:
   reality-opts:
     public-key: '10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc'
     short-id: '43dcff53849b81e6'
+- name: '🇳🇴 Norway — #282'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
 - name: '🇳🇴 Norway — #283'
   type: 'vless'
   server: '62.152.56.110'
@@ -2584,6 +2645,36 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
+- name: '🇳🇴 Norway — #399'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
+- name: '🇳🇴 Norway — #400'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
 - name: '🇹🇷 Türkiye — #458'
   type: 'vless'
   server: '176.109.85.89'
@@ -2659,6 +2750,21 @@ proxies:
   reality-opts:
     public-key: 'Q6Ecoq-ZFheEcp1gFcApiPpmefrqodpu70EQP6VHWyw'
     short-id: 'beca6be41a356c'
+- name: '🇳🇴 Norway — #430'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'chrome'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
 - name: '🇵🇱 Poland — #437'
   type: 'vless'
   server: '80.249.150.24'
@@ -2734,6 +2840,21 @@ proxies:
   reality-opts:
     public-key: 'Q6Ecoq-ZFheEcp1gFcApiPpmefrqodpu70EQP6VHWyw'
     short-id: 'beca6be41a356c'
+- name: '🇳🇴 Norway — #416'
+  type: 'vless'
+  server: '62.152.56.110'
+  port: 6443
+  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
+  udp: true
+  skip-cert-verify: true
+  network: 'raw'
+  flow: 'xtls-rprx-vision'
+  tls: true
+  servername: 'api-maps.yandex.ru'
+  client-fingerprint: 'firefox'
+  reality-opts:
+    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
+    short-id: '45ba91f179ad1f26'
 - name: '🇳🇴 Norway — #417'
   type: 'vless'
   server: '62.152.56.110'
@@ -2869,21 +2990,6 @@ proxies:
     public-key: 'QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8'
   grpc-opts:
     grpc-service-name: 'ns'
-- name: '🇳🇴 Norway — #286'
-  type: 'vless'
-  server: '62.152.56.110'
-  port: 6443
-  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
-    short-id: '45ba91f179ad1f26'
 - name: '🇺🇸 United States — #312'
   type: 'vless'
   server: '45.146.131.100'
@@ -2929,21 +3035,6 @@ proxies:
   reality-opts:
     public-key: '10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc'
     short-id: '43dcff53849b81e6'
-- name: '🇳🇴 Norway — #277'
-  type: 'vless'
-  server: '62.152.56.110'
-  port: 6443
-  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
-    short-id: '45ba91f179ad1f26'
 - name: '🇳🇴 Norway — #278'
   type: 'vless'
   server: '62.152.56.110'
@@ -2961,9 +3052,9 @@ proxies:
     short-id: '45ba91f179ad1f26'
 - name: '🇷🇺 VDSina — #33'
   type: 'vless'
-  server: '138.16.184.72'
+  server: '178.130.131.62'
   port: 2087
-  uuid: '97d6ec9c-9702-43ff-8ac8-5a8b4423d3ce'
+  uuid: 'a521084f-7c84-4fe0-adfb-e71328d715f9'
   udp: true
   skip-cert-verify: true
   network: 'grpc'
@@ -2971,7 +3062,7 @@ proxies:
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'DZQE8nDxD9hcmMSNEIaFC1_VIB1_SslMgEB-3jyIZHs'
+    public-key: 'TBSxUY80b781ud7T6Eka0hLpGfG-hMC7TiWSej4D8UM'
     short-id: 'c226283c4de5b1ad'
   grpc-opts:
     grpc-service-name: 'grpc'
@@ -3021,26 +3112,11 @@ proxies:
   reality-opts:
     public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
     short-id: '45ba91f179ad1f26'
-- name: '🇳🇴 Norway — #273'
-  type: 'vless'
-  server: '62.152.56.110'
-  port: 6443
-  uuid: '0b9bcbc1-b289-4a64-86fa-a5b731b65384'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'api-maps.yandex.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'hlJpjNVBd0c3DP2ngqXoaKtgw-0p5PKj5eF9mO_Od3I'
-    short-id: '45ba91f179ad1f26'
 - name: '🇷🇺 VDSina — #35'
   type: 'vless'
-  server: '178.130.131.62'
+  server: '138.16.174.112'
   port: 2087
-  uuid: 'a521084f-7c84-4fe0-adfb-e71328d715f9'
+  uuid: '4114f8a9-c4e6-467b-9033-7e89bf9dac20'
   udp: true
   skip-cert-verify: true
   network: 'grpc'
@@ -3048,7 +3124,7 @@ proxies:
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'TBSxUY80b781ud7T6Eka0hLpGfG-hMC7TiWSej4D8UM'
+    public-key: 'o7gK6LjmevRyS7gEn0LxM1hPFyL-uhBqauS07zlTPHs'
     short-id: 'c226283c4de5b1ad'
   grpc-opts:
     grpc-service-name: 'grpc'
@@ -3068,11 +3144,11 @@ proxies:
     short-id: 'c226283c4de5b1ad'
   grpc-opts:
     grpc-service-name: 'grpc'
-- name: '🇮🇹 Italy — #212'
+- name: '🇮🇹 Italy — #213'
   type: 'vless'
-  server: '138.16.184.123'
-  port: 446
-  uuid: '81ef8e1d-4d31-4c1b-92e8-d2e65e7ffaf4'
+  server: '193.124.128.179'
+  port: 447
+  uuid: '97b5584b-e987-41ff-a757-1cb88bc6eef1'
   udp: true
   skip-cert-verify: true
   network: 'raw'
@@ -3081,9 +3157,9 @@ proxies:
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: 'n9tFDSBvLVWje_hxPG5QqEZIf-ZhqbNH-i1PfmAHYkQ'
+    public-key: 'fSMsZ-goYQ3VoDgZgpYbipup3fbKv1TXFLGH0kN_LmY'
     short-id: 'c226283c4de5b1ad'
-- name: '🇮🇹 Italy — #213'
+- name: '🇮🇹 Italy — #214'
   type: 'vless'
   server: '185.40.28.216'
   port: 8443
@@ -3094,21 +3170,7 @@ proxies:
   flow: 'xtls-rprx-vision'
   tls: true
   servername: 'auto.quattro-tech.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc'
-    short-id: '43dcff53849b81e6'
-- name: '🇮🇹 Italy — #214'
-  type: 'vless'
-  server: '185.40.28.216'
-  port: 8443
-  uuid: 'ecad47b0-249e-0007-adff-e3c8f02b1897'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  tls: true
-  servername: 'auto.quattro-tech.ru'
-  client-fingerprint: 'firefox'
+  client-fingerprint: 'chrome'
   reality-opts:
     public-key: '10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc'
     short-id: '43dcff53849b81e6'
@@ -3175,9 +3237,9 @@ proxies:
     grpc-service-name: 'grpc'
 - name: '🇷🇺 VDSINA — #38'
   type: 'vless'
-  server: '193.124.128.144'
+  server: '193.124.128.179'
   port: 2087
-  uuid: '67cad96e-9bfe-48b7-bd85-1acb66a7a937'
+  uuid: '97b5584b-e987-41ff-a757-1cb88bc6eef1'
   udp: true
   skip-cert-verify: true
   network: 'grpc'
@@ -3185,7 +3247,7 @@ proxies:
   servername: 'ads.x5.ru'
   client-fingerprint: 'firefox'
   reality-opts:
-    public-key: '2EmWIOV_DOnYyCtoH0_0ccFMT-JBGR-UGhiMnwR6dxs'
+    public-key: 'fSMsZ-goYQ3VoDgZgpYbipup3fbKv1TXFLGH0kN_LmY'
     short-id: 'c226283c4de5b1ad'
   grpc-opts:
     grpc-service-name: 'grpc'
