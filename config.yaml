@@ -1,1496 +1,1930 @@
 proxies:
-- name: '🇩🇪 Germany — #92'
-  type: 'vless'
-  server: '168.222.140.233'
+- name: "\U0001F1E9\U0001F1EA Germany — #80"
+  type: "vless"
+  server: "95.163.232.165"
+  port: 443
+  uuid: "547c0d9e-9bb5-4e83-b6e7-09953bc6004b"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  alpn:
+  - "http/1.1"
+  tls: true
+  servername: "cloudflare.vhub.pro"
+  client-fingerprint: "edge"
+  ws-opts:
+    path: "/websocket?ed=2560"
+    headers:
+      Host: "cloudflare.vhub.pro"
+- name: "\U0001F1E9\U0001F1EA Germany — #85"
+  type: "vless"
+  server: "195.133.197.107"
+  port: 443
+  uuid: "a77a4603-8ab1-0082-a321-6b8e293a6fbe"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "rv-ru-01.mintrocket.org"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "GtindQ6Groq9xx3wOeytYRk53f1H6bnSioXEFN_0FSQ"
+    short-id: "7f0fae6c65570075"
+- name: "\U0001F1E9\U0001F1EA Germany — #92"
+  type: "vless"
+  server: "168.222.140.233"
   port: 4100
-  uuid: '9b44bfb4-9d28-4870-9fc3-5154d6d462ff'
+  uuid: "9b44bfb4-9d28-4870-9fc3-5154d6d462ff"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
+    path: "/v1"
     headers:
-      Host: 'live.ok.ru'
-- name: '🇩🇪 Germany — #95'
-  type: 'vless'
-  server: '31.177.111.213'
-  port: 443
-  uuid: '21e28374-04f3-40f8-987c-e7ea497e7d45'
+      Host: "live.ok.ru"
+- name: "\U0001F1E9\U0001F1EA Germany — #93"
+  type: "vless"
+  server: "217.177.74.111"
+  port: 2200
+  uuid: "9501f3d6-483f-45c1-ab2c-33266520cd5c"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'technologyllc.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'lW3HxVSEVzJI_jdr6F8Qgs-jpEKfwhZTDdL0oojtaF8'
-- name: '🇩🇪 Germany — #97'
-  type: 'vless'
-  server: '185.229.9.222'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'r6LKP3g2W5ruKICTDfH8rwM1PbMjdcgHU7cG6jppxTs'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #99'
-  type: 'vless'
-  server: '185.229.9.222'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '437aLH3no_OoVjc1kHenwwiLl02NVggpFLESF-Nu1Fs'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #100'
-  type: 'vless'
-  server: '51.250.7.122'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'www.vk.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #101'
-  type: 'vless'
-  server: '185.229.9.222'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'www.vk.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '8GvAwYlFFIEIJdTTDiwxr6-ePowH3zG4rUpNxUCvf0c'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #102'
-  type: 'vless'
-  server: '185.229.9.32'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'www.vk.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #103'
-  type: 'vless'
-  server: '176.109.85.122'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'r6LKP3g2W5ruKICTDfH8rwM1PbMjdcgHU7cG6jppxTs'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #104'
-  type: 'vless'
-  server: '185.229.9.32'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'api.ok.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'I_mMGeQ8r529dq2LjFUzv0nb74zuux2zGWT2RfKuE14'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #105'
-  type: 'vless'
-  server: '51.250.7.122'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'BjG7XoEMR2uxHbBk_rtkR7P_S_luG2VcvQlvZ4YHzH8'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #107'
-  type: 'vless'
-  server: '51.250.7.122'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #108'
-  type: 'vless'
-  server: '185.229.9.32'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'r6LKP3g2W5ruKICTDfH8rwM1PbMjdcgHU7cG6jppxTs'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #109'
-  type: 'vless'
-  server: '185.229.9.32'
-  port: 443
-  uuid: 'fa386d1c-0cb9-4981-bab1-0e0c4f6686e3'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '437aLH3no_OoVjc1kHenwwiLl02NVggpFLESF-Nu1Fs'
-    short-id: '27e53bbcab7593d7'
-    spider-x: '/'
-- name: '🇩🇪 Germany — #116'
-  type: 'vless'
-  server: '37.9.4.224'
-  port: 443
-  uuid: 'b3407724-d5e2-4c29-b35a-d34b197415c4'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'wl-2-1.legendary.ac'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'uL4x8EbCl080G43kFlv8nbpEyseWi1Dc_bl8F7lWtm8'
-    short-id: 'aa03ec59c9695e91'
-- name: '🇩🇪 Germany — #117'
-  type: 'vless'
-  server: '62.152.58.114'
-  port: 443
-  uuid: 'b3407724-d5e2-4c29-b35a-d34b197415c4'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'wl-13-1.nodes.ac'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'jAJoyWJ4nMGai3H9BOa6QMUr2Vvpgqs8VipbaO5mCVU'
-    short-id: '3130197867c23edb'
-- name: '🇩🇪 Germany — #118'
-  type: 'vless'
-  server: '185.130.114.211'
-  port: 443
-  uuid: 'fabefb07-73a9-42d3-9f7f-675586504b7d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY'
-- name: '🇩🇪 Germany — #119'
-  type: 'vless'
-  server: '89.208.210.165'
-  port: 443
-  uuid: 'fabefb07-73a9-42d3-9f7f-675586504b7d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI'
-- name: '🇩🇪 Germany — #120'
-  type: 'vless'
-  server: '89.208.210.216'
-  port: 443
-  uuid: 'fabefb07-73a9-42d3-9f7f-675586504b7d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI'
-- name: '🇩🇪 Germany — #122'
-  type: 'vless'
-  server: '5.178.85.132'
-  port: 443
-  uuid: 'fabefb07-73a9-42d3-9f7f-675586504b7d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI'
-- name: '🇩🇪 Germany — #125'
-  type: 'vless'
-  server: '51.250.24.249'
-  port: 443
-  uuid: 'fabefb07-73a9-42d3-9f7f-675586504b7d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI'
-- name: '🇩🇪 Germany — #126'
-  type: 'vless'
-  server: '185.130.115.132'
-  port: 443
-  uuid: 'fabefb07-73a9-42d3-9f7f-675586504b7d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY'
-- name: '🇩🇪 Germany — #127'
-  type: 'vless'
-  server: '158.160.192.93'
-  port: 443
-  uuid: 'fabefb07-73a9-42d3-9f7f-675586504b7d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI'
-- name: '🇩🇪 Germany — #128'
-  type: 'vless'
-  server: '158.160.128.13'
-  port: 443
-  uuid: 'fabefb07-73a9-42d3-9f7f-675586504b7d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'safari'
-  reality-opts:
-    public-key: 'CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY'
-- name: '🇷🇺 Timeweb — #21'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
+  network: "ws"
+  tls: false
   ws-opts:
-    path: '/api/v1/video-stream'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇷🇺 Timeweb — #24'
-  type: 'vless'
-  server: '78.159.245.32'
+    path: "/v1#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560"
+- name: "\U0001F1E9\U0001F1EA Germany — #97"
+  type: "vless"
+  server: "185.229.9.222"
   port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'chrome'
-  ws-opts:
-    path: '/api/v1/video-stream'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇪🇪 Estonia — #120'
-  type: 'vless'
-  server: '165.231.157.106'
+  servername: "yandex.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "r6LKP3g2W5ruKICTDfH8rwM1PbMjdcgHU7cG6jppxTs"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #99"
+  type: "vless"
+  server: "185.229.9.222"
   port: 443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
   udp: true
   skip-cert-verify: true
-  network: 'xhttp'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "max.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "437aLH3no_OoVjc1kHenwwiLl02NVggpFLESF-Nu1Fs"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #100"
+  type: "vless"
+  server: "51.250.7.122"
+  port: 443
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "www.vk.com"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #101"
+  type: "vless"
+  server: "185.229.9.222"
+  port: 443
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "www.vk.com"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "8GvAwYlFFIEIJdTTDiwxr6-ePowH3zG4rUpNxUCvf0c"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #103"
+  type: "vless"
+  server: "176.109.85.122"
+  port: 443
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "r6LKP3g2W5ruKICTDfH8rwM1PbMjdcgHU7cG6jppxTs"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #105"
+  type: "vless"
+  server: "51.250.7.122"
+  port: 443
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "max.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "BjG7XoEMR2uxHbBk_rtkR7P_S_luG2VcvQlvZ4YHzH8"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #107"
+  type: "vless"
+  server: "51.250.7.122"
+  port: 443
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #108"
+  type: "vless"
+  server: "185.229.9.32"
+  port: 443
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "r6LKP3g2W5ruKICTDfH8rwM1PbMjdcgHU7cG6jppxTs"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #109"
+  type: "vless"
+  server: "185.229.9.32"
+  port: 443
+  uuid: "fa386d1c-0cb9-4981-bab1-0e0c4f6686e3"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "max.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "437aLH3no_OoVjc1kHenwwiLl02NVggpFLESF-Nu1Fs"
+    short-id: "27e53bbcab7593d7"
+    spider-x: "/"
+- name: "\U0001F1E9\U0001F1EA Germany — #111"
+  type: "vless"
+  server: "213.219.212.12"
+  port: 443
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   alpn:
-  - 'h2'
+  - "http/1.1"
   tls: true
-  servername: 'app-6a607097.adhil.uk'
-  client-fingerprint: 'safari'
+  servername: "z4.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1E9\U0001F1EA Germany — #112"
+  type: "vless"
+  server: "213.219.212.12"
+  port: 443
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
+  tls: true
+  servername: "z6.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1E9\U0001F1EA Germany — #113"
+  type: "vless"
+  server: "213.219.212.12"
+  port: 443
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
+  tls: true
+  servername: "z8.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1E9\U0001F1EA Germany — #114"
+  type: "vless"
+  server: "213.219.212.12"
+  port: 443
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
+  tls: true
+  servername: "z10.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1E9\U0001F1EA Germany — #115"
+  type: "vless"
+  server: "213.219.212.12"
+  port: 443
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
+  tls: true
+  servername: "z7.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1E9\U0001F1EA Germany — #116"
+  type: "vless"
+  server: "37.9.4.224"
+  port: 443
+  uuid: "b3407724-d5e2-4c29-b35a-d34b197415c4"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "wl-2-1.legendary.ac"
+  client-fingerprint: "qq"
+  reality-opts:
+    public-key: "uL4x8EbCl080G43kFlv8nbpEyseWi1Dc_bl8F7lWtm8"
+    short-id: "aa03ec59c9695e91"
+- name: "\U0001F1E9\U0001F1EA Germany — #117"
+  type: "vless"
+  server: "62.152.58.114"
+  port: 443
+  uuid: "b3407724-d5e2-4c29-b35a-d34b197415c4"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "wl-13-1.nodes.ac"
+  client-fingerprint: "qq"
+  reality-opts:
+    public-key: "jAJoyWJ4nMGai3H9BOa6QMUr2Vvpgqs8VipbaO5mCVU"
+    short-id: "3130197867c23edb"
+- name: "\U0001F1E9\U0001F1EA Germany — #118"
+  type: "vless"
+  server: "185.130.114.211"
+  port: 443
+  uuid: "fabefb07-73a9-42d3-9f7f-675586504b7d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+- name: "\U0001F1E9\U0001F1EA Germany — #119"
+  type: "vless"
+  server: "89.208.210.165"
+  port: 443
+  uuid: "fabefb07-73a9-42d3-9f7f-675586504b7d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "safari"
+  reality-opts:
+    public-key: "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+- name: "\U0001F1E9\U0001F1EA Germany — #120"
+  type: "vless"
+  server: "89.208.210.216"
+  port: 443
+  uuid: "fabefb07-73a9-42d3-9f7f-675586504b7d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "safari"
+  reality-opts:
+    public-key: "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+- name: "\U0001F1E9\U0001F1EA Germany — #122"
+  type: "vless"
+  server: "5.178.85.132"
+  port: 443
+  uuid: "fabefb07-73a9-42d3-9f7f-675586504b7d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+- name: "\U0001F1E9\U0001F1EA Germany — #125"
+  type: "vless"
+  server: "51.250.24.249"
+  port: 443
+  uuid: "fabefb07-73a9-42d3-9f7f-675586504b7d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+- name: "\U0001F1E9\U0001F1EA Germany — #126"
+  type: "vless"
+  server: "185.130.115.132"
+  port: 443
+  uuid: "fabefb07-73a9-42d3-9f7f-675586504b7d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+- name: "\U0001F1E9\U0001F1EA Germany — #127"
+  type: "vless"
+  server: "158.160.192.93"
+  port: 443
+  uuid: "fabefb07-73a9-42d3-9f7f-675586504b7d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "safari"
+  reality-opts:
+    public-key: "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+- name: "\U0001F1E9\U0001F1EA Germany — #128"
+  type: "vless"
+  server: "158.160.128.13"
+  port: 443
+  uuid: "fabefb07-73a9-42d3-9f7f-675586504b7d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "safari"
+  reality-opts:
+    public-key: "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+- name: "\U0001F1EA\U0001F1EA Estonia — #120"
+  type: "vless"
+  server: "165.231.157.106"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  alpn:
+  - "h2"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "safari"
   xhttp-opts:
-    path: '/'
-- name: '🇫🇷 France — #164'
-  type: 'vless'
-  server: '87.242.85.201'
+    path: "/"
+- name: "\U0001F1EB\U0001F1F7 France — #164"
+  type: "vless"
+  server: "87.242.85.201"
   port: 13561
-  uuid: '7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd'
+  uuid: "7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
+  network: "tcp"
   tls: false
-- name: '🇫🇷 France — #159'
-  type: 'vless'
-  server: '87.242.85.201'
+- name: "\U0001F1EB\U0001F1F7 France — #159"
+  type: "vless"
+  server: "87.242.85.201"
   port: 13561
-  uuid: '7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd'
+  uuid: "7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
+  network: "tcp"
   tls: false
-- name: '🇷🇺 Yandex — #2'
-  type: 'vless'
-  server: '62.152.59.193'
+- name: "\U0001F1F7\U0001F1FA Yandex — #2"
+  type: "vless"
+  server: "62.152.59.193"
   port: 443
-  uuid: 'efa7cb19-2845-4eb7-bcd7-e860a8a4628d'
+  uuid: "efa7cb19-2845-4eb7-bcd7-e860a8a4628d"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'qq'
+  servername: "max.ru"
+  client-fingerprint: "qq"
   reality-opts:
-    public-key: 'pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU'
-    short-id: '2a552b0d4d15e0f7'
-- name: '🇷🇺 Selectel — #23'
-  type: 'vless'
-  server: '213.219.212.24'
+    public-key: "pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU"
+    short-id: "2a552b0d4d15e0f7"
+- name: "\U0001F1F7\U0001F1FA Selectel — #23"
+  type: "vless"
+  server: "213.219.212.24"
   port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'firefox'
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "firefox"
   reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇳🇱 The Netherlands — #337'
-  type: 'vless'
-  server: '78.159.245.32'
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #337"
+  type: "vless"
+  server: "78.159.245.32"
   port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
+  servername: "furrycdn.net"
+  client-fingerprint: "firefox"
   ws-opts:
-    path: '/api/v1/make-love-not-war'
+    path: "/api/v1/make-love-not-war"
     headers:
-      Host: 'furrycdn.net'
-- name: '🇳🇱 The Netherlands — #338'
-  type: 'vless'
-  server: '78.159.245.32'
+      Host: "furrycdn.net"
+- name: "\U0001F1F7\U0001F1FA Selectel — #24"
+  type: "vless"
+  server: "213.219.212.24"
   port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'chrome'
-  ws-opts:
-    path: '/api/v1/make-love-not-war'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇷🇺 Selectel — #24'
-  type: 'vless'
-  server: '213.219.212.24'
-  port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'firefox'
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "firefox"
   reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇪🇪 Estonia — #146'
-  type: 'vless'
-  server: '45.11.26.234'
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1EA\U0001F1EA Estonia — #145"
+  type: "vless"
+  server: "165.231.157.109"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "firefox"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #146"
+  type: "vless"
+  server: "45.11.26.234"
   port: 8443
-  uuid: 'b3407724-d5e2-4c29-b35a-d34b197415c4'
+  uuid: "b3407724-d5e2-4c29-b35a-d34b197415c4"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'wl-7-6.nodes.ac'
-  client-fingerprint: 'edge'
+  servername: "wl-7-6.nodes.ac"
+  client-fingerprint: "edge"
   reality-opts:
-    public-key: 'QxW0nwrOXYHuEeL4PXObUDEackg-ebQ_9Vgl01IwsxM'
-    short-id: '77173c666c84bec1'
-- name: '🇪🇪 Estonia — #149'
-  type: 'vless'
-  server: '213.226.112.213'
+    public-key: "QxW0nwrOXYHuEeL4PXObUDEackg-ebQ_9Vgl01IwsxM"
+    short-id: "77173c666c84bec1"
+- name: "\U0001F1EA\U0001F1EA Estonia — #149"
+  type: "vless"
+  server: "213.226.112.213"
   port: 443
-  uuid: 'b3407724-d5e2-4c29-b35a-d34b197415c4'
+  uuid: "b3407724-d5e2-4c29-b35a-d34b197415c4"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'wl-7-5.nodes.ac'
-  client-fingerprint: 'qq'
+  servername: "wl-7-5.nodes.ac"
+  client-fingerprint: "qq"
   reality-opts:
-    public-key: 'sXOFKo2LTiE3qg7Z68FIiwTYvhNNSAOTx9AYMuUoUnk'
-    short-id: '07d3a29177aefcb6'
-- name: '🇫🇮 Finland — #155'
-  type: 'vless'
-  server: '91.185.83.116'
+    public-key: "sXOFKo2LTiE3qg7Z68FIiwTYvhNNSAOTx9AYMuUoUnk"
+    short-id: "07d3a29177aefcb6"
+- name: "\U0001F1EB\U0001F1EE Finland — #155"
+  type: "vless"
+  server: "91.185.83.116"
   port: 7443
-  uuid: '53ec7e52-9449-4bba-8256-330faded7577'
+  uuid: "53ec7e52-9449-4bba-8256-330faded7577"
   udp: true
   skip-cert-verify: true
-  network: 'grpc'
+  network: "grpc"
   tls: true
-  servername: '5post-gate.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: "5post-gate.x5.ru"
+  client-fingerprint: "firefox"
   reality-opts:
-    public-key: 'YvhcuqXRqPigT7_rp9vsV5LAdxXHN8eWB_17SchS_S8'
+    public-key: "YvhcuqXRqPigT7_rp9vsV5LAdxXHN8eWB_17SchS_S8"
   grpc-opts:
-    grpc-service-name: 'grpc'
-- name: '🇫🇷 France — #170'
-  type: 'vless'
-  server: '87.242.85.201'
+    grpc-service-name: "grpc"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #223"
+  type: "vless"
+  server: "62.152.56.73"
+  port: 443
+  uuid: "b3407724-d5e2-4c29-b35a-d34b197415c4"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "wl-12.nodes.ac"
+  client-fingerprint: "edge"
+  reality-opts:
+    public-key: "lh3qj3VX335HGH2T3xQ8RHZ4v3zEStbz6ENiPwkILSg"
+    short-id: "cf43c0c197cd464a"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #224"
+  type: "vless"
+  server: "62.152.56.73"
+  port: 443
+  uuid: "b3407724-d5e2-4c29-b35a-d34b197415c4"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "wl-12.nodes.ac"
+  client-fingerprint: "qq"
+  reality-opts:
+    public-key: "lh3qj3VX335HGH2T3xQ8RHZ4v3zEStbz6ENiPwkILSg"
+    short-id: "cf43c0c197cd464a"
+- name: "\U0001F1F8\U0001F1EA Sweden — #272"
+  type: "vless"
+  server: "109.120.188.54"
+  port: 443
+  uuid: "1db0a61e-05f5-43ad-870c-ceff6ce06939"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ads.x5.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE"
+    short-id: "1ca44564cda56661"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #210"
+  type: "vless"
+  server: "78.159.245.32"
+  port: 443
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: true
+  servername: "furrycdn.net"
+  client-fingerprint: "firefox"
+  ws-opts:
+    path: "/api/v1/make-love-not-war"
+    headers:
+      Host: "furrycdn.net"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #212"
+  type: "vless"
+  server: "78.159.245.32"
+  port: 443
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: true
+  servername: "furrycdn.net"
+  client-fingerprint: "chrome"
+  ws-opts:
+    path: "/api/v1/make-love-not-war"
+    headers:
+      Host: "furrycdn.net"
+- name: "\U0001F1F7\U0001F1FA Yandex — #6"
+  type: "vless"
+  server: "62.152.59.193"
+  port: 443
+  uuid: "efa7cb19-2845-4eb7-bcd7-e860a8a4628d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "max.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU"
+    short-id: "2a552b0d4d15e0f7"
+- name: "\U0001F1EA\U0001F1EA Estonia — #139"
+  type: "vless"
+  server: "165.231.157.114"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "chrome"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #140"
+  type: "vless"
+  server: "165.231.157.117"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "firefox"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #142"
+  type: "vless"
+  server: "165.231.157.106"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  alpn:
+  - "h2"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "chrome"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #143"
+  type: "vless"
+  server: "165.231.157.117"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "safari"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EB\U0001F1F7 France — #156"
+  type: "vless"
+  server: "87.242.85.201"
   port: 13561
-  uuid: '7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd'
+  uuid: "7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
+  network: "tcp"
   tls: false
-- name: '🇳🇱 The Netherlands — #223'
-  type: 'vless'
-  server: '62.152.56.73'
+- name: "\U0001F1F5\U0001F1F1 Poland — #240"
+  type: "vless"
+  server: "213.219.212.200"
   port: 443
-  uuid: 'b3407724-d5e2-4c29-b35a-d34b197415c4'
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
   tls: true
-  servername: 'wl-12.nodes.ac'
-  client-fingerprint: 'edge'
-  reality-opts:
-    public-key: 'lh3qj3VX335HGH2T3xQ8RHZ4v3zEStbz6ENiPwkILSg'
-    short-id: 'cf43c0c197cd464a'
-- name: '🇳🇱 The Netherlands — #224'
-  type: 'vless'
-  server: '62.152.56.73'
+  servername: "z4.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1F5\U0001F1F1 Poland — #241"
+  type: "vless"
+  server: "213.219.212.216"
   port: 443
-  uuid: 'b3407724-d5e2-4c29-b35a-d34b197415c4'
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
   tls: true
-  servername: 'wl-12.nodes.ac'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'lh3qj3VX335HGH2T3xQ8RHZ4v3zEStbz6ENiPwkILSg'
-    short-id: 'cf43c0c197cd464a'
-- name: '🇸🇪 Sweden — #272'
-  type: 'vless'
-  server: '109.120.188.54'
+  servername: "z2.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1F5\U0001F1F1 Poland — #242"
+  type: "vless"
+  server: "213.219.212.200"
   port: 443
-  uuid: '1db0a61e-05f5-43ad-870c-ceff6ce06939'
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
-- name: '🇷🇺 Yandex — #6'
-  type: 'vless'
-  server: '62.152.59.193'
-  port: 443
-  uuid: 'efa7cb19-2845-4eb7-bcd7-e860a8a4628d'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU'
-    short-id: '2a552b0d4d15e0f7'
-- name: '🇫🇷 France — #156'
-  type: 'vless'
-  server: '87.242.85.201'
-  port: 13561
-  uuid: '7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  tls: false
-- name: '🇸🇪 Sweden — #247'
-  type: 'vless'
-  server: '213.219.212.254'
+  servername: "z7.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1F8\U0001F1EA Sweden — #247"
+  type: "vless"
+  server: "213.219.212.254"
   port: 8443
-  uuid: '49b4a6a3-17da-4210-b602-ed76346bf965'
+  uuid: "49b4a6a3-17da-4210-b602-ed76346bf965"
   udp: true
   skip-cert-verify: true
-  network: 'grpc'
+  network: "grpc"
   tls: true
-  servername: '360.yandex.ru'
-  client-fingerprint: 'qq'
+  servername: "360.yandex.ru"
+  client-fingerprint: "qq"
   reality-opts:
-    public-key: 'ZpXBddDY5CBXaRTnUz4lM4xs_KBVX4CPulN-q9AqhAI'
+    public-key: "ZpXBddDY5CBXaRTnUz4lM4xs_KBVX4CPulN-q9AqhAI"
   grpc-opts:
-    grpc-service-name: 'ns'
-- name: '🇸🇪 Sweden — #267'
-  type: 'vless'
-  server: '109.120.188.54'
+    grpc-service-name: "ns"
+- name: "\U0001F1F8\U0001F1EA Sweden — #248"
+  type: "vless"
+  server: "185.178.208.176"
   port: 443
-  uuid: '1db0a61e-05f5-43ad-870c-ceff6ce06939'
+  uuid: "49b4a6a3-17da-4210-b602-ed76346bf965"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
-- name: '🇪🇪 Estonia — #114'
-  type: 'vless'
-  server: '165.231.157.114'
-  port: 443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
-  udp: true
-  skip-cert-verify: true
-  network: 'xhttp'
+  network: "ws"
   alpn:
-  - 'h2'
+  - "h3"
+  - "h2"
   tls: true
-  servername: 'app-6a607097.adhil.uk'
-  client-fingerprint: 'firefox'
-  xhttp-opts:
-    path: '/'
-- name: '🇪🇪 Estonia — #115'
-  type: 'vless'
-  server: '165.231.157.114'
-  port: 443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
-  udp: true
-  skip-cert-verify: true
-  network: 'xhttp'
-  tls: true
-  servername: 'app-6a607097.adhil.uk'
-  client-fingerprint: 'firefox'
-  xhttp-opts:
-    path: '/'
-- name: '🇪🇪 Estonia — #116'
-  type: 'vless'
-  server: '165.231.157.109'
-  port: 443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
-  udp: true
-  skip-cert-verify: true
-  network: 'xhttp'
-  tls: true
-  servername: 'app-6a607097.adhil.uk'
-  client-fingerprint: 'chrome'
-  xhttp-opts:
-    path: '/'
-- name: '🇪🇪 Estonia — #119'
-  type: 'vless'
-  server: '165.231.157.109'
-  port: 443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
-  udp: true
-  skip-cert-verify: true
-  network: 'xhttp'
-  tls: true
-  servername: 'app-6a607097.adhil.uk'
-  client-fingerprint: 'chrome'
-  xhttp-opts:
-    path: '/'
-- name: '🇳🇱 The Netherlands — #164'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
+  servername: "founders-blog.online"
+  client-fingerprint: "chrome"
   ws-opts:
-    path: '/api/v1/make-love-not-war'
+    path: "/stream/615428/socket"
     headers:
-      Host: 'furrycdn.net'
-- name: '🇳🇱 The Netherlands — #165'
-  type: 'vless'
-  server: '78.159.245.32'
+      Host: "founders-blog.online"
+- name: "\U0001F1F8\U0001F1EA Sweden — #267"
+  type: "vless"
+  server: "109.120.188.54"
   port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
+  uuid: "1db0a61e-05f5-43ad-870c-ceff6ce06939"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'chrome'
-  ws-opts:
-    path: '/api/v1/make-love-not-war'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇳🇱 The Netherlands — #180'
-  type: 'vless'
-  server: '78.159.245.32'
+  servername: "ads.x5.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE"
+    short-id: "1ca44564cda56661"
+- name: "\U0001F1EA\U0001F1EA Estonia — #114"
+  type: "vless"
+  server: "165.231.157.114"
   port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
-  ws-opts:
-    path: '/api/v1/make-love-not-war'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇳🇱 The Netherlands — #181'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'chrome'
-  ws-opts:
-    path: '/api/v1/make-love-not-war'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇳🇱 The Netherlands — #184'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
-  ws-opts:
-    path: '/api/v1/make-love-not-war'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇪🇪 Estonia — #125'
-  type: 'vless'
-  server: '165.231.157.109'
-  port: 443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
-  udp: true
-  skip-cert-verify: true
-  network: 'xhttp'
+  network: "xhttp"
   alpn:
-  - 'h2'
+  - "h2"
   tls: true
-  servername: 'app-6a607097.adhil.uk'
-  client-fingerprint: 'firefox'
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "firefox"
   xhttp-opts:
-    path: '/'
-- name: '🇪🇪 Estonia — #126'
-  type: 'vless'
-  server: '165.231.157.117'
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #115"
+  type: "vless"
+  server: "165.231.157.114"
   port: 443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'xhttp'
+  network: "xhttp"
   tls: true
-  servername: 'app-6a607097.adhil.uk'
-  client-fingerprint: 'firefox'
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "firefox"
   xhttp-opts:
-    path: '/'
-- name: '🇪🇪 Estonia — #127'
-  type: 'vless'
-  server: '165.231.157.114'
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #116"
+  type: "vless"
+  server: "165.231.157.109"
   port: 443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'xhttp'
+  network: "xhttp"
   tls: true
-  servername: 'app-6a607097.adhil.uk'
-  client-fingerprint: 'chrome'
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "chrome"
   xhttp-opts:
-    path: '/'
-- name: '🇫🇷 France — #144'
-  type: 'vless'
-  server: '87.242.85.201'
-  port: 13561
-  uuid: '7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  tls: false
-- name: '🇱🇹 Lithuania — #189'
-  type: 'vless'
-  server: '194.55.239.149'
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #119"
+  type: "vless"
+  server: "165.231.157.109"
   port: 443
-  uuid: '378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "xhttp"
   tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'dUgmee6jz2o7MYnSnpqg1i-bXdSGdVIg49ic4zuzbgo'
-    short-id: 'd7b975a0b00be730'
-    spider-x: '/'
-- name: '🇱🇹 Lithuania — #195'
-  type: 'vless'
-  server: '194.55.239.225'
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "chrome"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #164"
+  type: "vless"
+  server: "78.159.245.32"
   port: 443
-  uuid: '378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e'
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "ws"
   tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'dUgmee6jz2o7MYnSnpqg1i-bXdSGdVIg49ic4zuzbgo'
-    short-id: 'd7b975a0b00be730'
-    spider-x: '/'
-- name: '🇱🇹 Lithuania — #196'
-  type: 'vless'
-  server: '84.201.176.179'
+  servername: "furrycdn.net"
+  client-fingerprint: "firefox"
+  ws-opts:
+    path: "/api/v1/make-love-not-war"
+    headers:
+      Host: "furrycdn.net"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #165"
+  type: "vless"
+  server: "78.159.245.32"
   port: 443
-  uuid: '378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e'
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "ws"
   tls: true
-  servername: 'www.vk.com'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'lM4aY7R07Gem9x-TKqvCuKcZSLuZU-_2lyZqxmQLHDs'
-    short-id: 'a9e95077bdf34209'
-    spider-x: '/'
-- name: '🇸🇪 Sweden — #244'
-  type: 'vless'
-  server: '109.120.188.54'
+  servername: "furrycdn.net"
+  client-fingerprint: "chrome"
+  ws-opts:
+    path: "/api/v1/make-love-not-war"
+    headers:
+      Host: "furrycdn.net"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #180"
+  type: "vless"
+  server: "78.159.245.32"
   port: 443
-  uuid: '1db0a61e-05f5-43ad-870c-ceff6ce06939'
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "ws"
   tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: "furrycdn.net"
+  client-fingerprint: "firefox"
+  ws-opts:
+    path: "/api/v1/make-love-not-war"
+    headers:
+      Host: "furrycdn.net"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #181"
+  type: "vless"
+  server: "78.159.245.32"
+  port: 443
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: true
+  servername: "furrycdn.net"
+  client-fingerprint: "chrome"
+  ws-opts:
+    path: "/api/v1/make-love-not-war"
+    headers:
+      Host: "furrycdn.net"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #184"
+  type: "vless"
+  server: "78.159.245.32"
+  port: 443
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: true
+  servername: "furrycdn.net"
+  client-fingerprint: "firefox"
+  ws-opts:
+    path: "/api/v1/make-love-not-war"
+    headers:
+      Host: "furrycdn.net"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #195"
+  type: "vless"
+  server: "195.133.197.107"
+  port: 443
+  uuid: "a77a4603-8ab1-0082-a321-6b8e293a6fbe"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "rv-ru-01.mintrocket.org"
+  client-fingerprint: "edge"
   reality-opts:
-    public-key: '4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE'
-    short-id: '1ca44564cda56661'
-- name: '🇸🇪 Sweden — #245'
-  type: 'vless'
-  server: '185.91.54.126'
+    public-key: "GtindQ6Groq9xx3wOeytYRk53f1H6bnSioXEFN_0FSQ"
+    short-id: "7f0fae6c65570075"
+- name: "\U0001F1EA\U0001F1EA Estonia — #125"
+  type: "vless"
+  server: "165.231.157.109"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  alpn:
+  - "h2"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "firefox"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #126"
+  type: "vless"
+  server: "165.231.157.117"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "firefox"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #127"
+  type: "vless"
+  server: "165.231.157.114"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "chrome"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #131"
+  type: "vless"
+  server: "165.231.157.109"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "chrome"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #135"
+  type: "vless"
+  server: "165.231.157.109"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "chrome"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EA\U0001F1EA Estonia — #137"
+  type: "vless"
+  server: "165.231.157.117"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  alpn:
+  - "h2"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "safari"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1F1\U0001F1F9 Lithuania — #189"
+  type: "vless"
+  server: "194.55.239.149"
+  port: 443
+  uuid: "378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "qq"
+  reality-opts:
+    public-key: "dUgmee6jz2o7MYnSnpqg1i-bXdSGdVIg49ic4zuzbgo"
+    short-id: "d7b975a0b00be730"
+    spider-x: "/"
+- name: "\U0001F1F1\U0001F1F9 Lithuania — #191"
+  type: "vless"
+  server: "194.55.239.225"
+  port: 443
+  uuid: "378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ads.x5.ru"
+  client-fingerprint: "qq"
+  reality-opts:
+    public-key: "cs3rjd3sEWQgm3remEcWXqyxANbJAAWjEHfGNOU-KwE"
+    short-id: "fb7bcadf992e2411"
+    spider-x: "/"
+- name: "\U0001F1F1\U0001F1F9 Lithuania — #194"
+  type: "vless"
+  server: "51.250.83.32"
+  port: 443
+  uuid: "378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "max.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "wi0mLRyP_rX2sM_uqvDeILAN7_2mDnZ4DmAlC4okjXQ"
+    short-id: "ce1ad22ee3205e62"
+    spider-x: "/"
+- name: "\U0001F1F1\U0001F1F9 Lithuania — #195"
+  type: "vless"
+  server: "194.55.239.225"
+  port: 443
+  uuid: "378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "yandex.ru"
+  client-fingerprint: "qq"
+  reality-opts:
+    public-key: "dUgmee6jz2o7MYnSnpqg1i-bXdSGdVIg49ic4zuzbgo"
+    short-id: "d7b975a0b00be730"
+    spider-x: "/"
+- name: "\U0001F1F1\U0001F1F9 Lithuania — #196"
+  type: "vless"
+  server: "84.201.176.179"
+  port: 443
+  uuid: "378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "www.vk.com"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "lM4aY7R07Gem9x-TKqvCuKcZSLuZU-_2lyZqxmQLHDs"
+    short-id: "a9e95077bdf34209"
+    spider-x: "/"
+- name: "\U0001F1F8\U0001F1EA Sweden — #244"
+  type: "vless"
+  server: "109.120.188.54"
+  port: 443
+  uuid: "1db0a61e-05f5-43ad-870c-ceff6ce06939"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ads.x5.ru"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE"
+    short-id: "1ca44564cda56661"
+- name: "\U0001F1F8\U0001F1EA Sweden — #245"
+  type: "vless"
+  server: "185.91.54.126"
   port: 8445
-  uuid: '49b4a6a3-17da-4210-b602-ed76346bf965'
+  uuid: "49b4a6a3-17da-4210-b602-ed76346bf965"
   udp: true
   skip-cert-verify: true
-  network: 'grpc'
+  network: "grpc"
   tls: true
-  servername: '360.yandex.ru'
-  client-fingerprint: 'qq'
+  servername: "360.yandex.ru"
+  client-fingerprint: "qq"
   reality-opts:
-    public-key: '-22oLFCHao66M820QocQMqCdKF0ckLuVYMtcth92vjk'
+    public-key: "-22oLFCHao66M820QocQMqCdKF0ckLuVYMtcth92vjk"
   grpc-opts:
-    grpc-service-name: 'ns'
-- name: '🇸🇪 Sweden — #246'
-  type: 'vless'
-  server: '87.228.101.33'
+    grpc-service-name: "ns"
+- name: "\U0001F1F8\U0001F1EA Sweden — #246"
+  type: "vless"
+  server: "87.228.101.33"
   port: 8444
-  uuid: '49b4a6a3-17da-4210-b602-ed76346bf965'
+  uuid: "49b4a6a3-17da-4210-b602-ed76346bf965"
   udp: true
   skip-cert-verify: true
-  network: 'grpc'
+  network: "grpc"
   tls: true
-  servername: '360.yandex.ru'
-  client-fingerprint: 'qq'
+  servername: "360.yandex.ru"
+  client-fingerprint: "qq"
   reality-opts:
-    public-key: '-22oLFCHao66M820QocQMqCdKF0ckLuVYMtcth92vjk'
+    public-key: "-22oLFCHao66M820QocQMqCdKF0ckLuVYMtcth92vjk"
   grpc-opts:
-    grpc-service-name: 'ns'
-- name: '🇫🇷 France — #138'
-  type: 'vless'
-  server: '87.242.85.201'
+    grpc-service-name: "ns"
+- name: "\U0001F1EA\U0001F1EA Estonia — #138"
+  type: "vless"
+  server: "165.231.157.109"
+  port: 443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "xhttp"
+  alpn:
+  - "h2"
+  tls: true
+  servername: "app-6a607097.adhil.uk"
+  client-fingerprint: "firefox"
+  xhttp-opts:
+    path: "/"
+- name: "\U0001F1EB\U0001F1F7 France — #138"
+  type: "vless"
+  server: "87.242.85.201"
   port: 13561
-  uuid: '7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd'
+  uuid: "7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
+  network: "tcp"
   tls: false
-- name: '🇱🇹 Lithuania — #183'
-  type: 'vless'
-  server: '84.201.176.179'
-  port: 443
-  uuid: '378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'a-pxMyDrgkZ4eAM_I7k0mJiBn3AN0eyqeiSGtV03F1U'
-    short-id: 'd30f4e10dc056830'
-    spider-x: '/'
-- name: '🇷🇺 MegaMax Network — #17'
-  type: 'vless'
-  server: '212.67.9.113'
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #16"
+  type: "vless"
+  server: "212.67.9.113"
   port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇷🇺 Selectel — #27'
-  type: 'vless'
-  server: '213.219.212.24'
-  port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 MegaMax Network — #26'
-  type: 'vless'
-  server: '212.67.9.113'
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #14"
+  type: "vless"
+  server: "212.67.9.113"
   port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇷🇺 Timeweb — #41'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #18"
+  type: "vless"
+  server: "212.67.9.113"
+  port: 2200
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
+  network: "ws"
+  tls: false
   ws-opts:
-    path: '/api/v1/video-stream'
+    path: "/v1"
+- name: "\U0001F1F1\U0001F1F9 Lithuania — #205"
+  type: "vless"
+  server: "51.250.83.32"
+  port: 443
+  uuid: "378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "www.vk.com"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "lM4aY7R07Gem9x-TKqvCuKcZSLuZU-_2lyZqxmQLHDs"
+    short-id: "a9e95077bdf34209"
+    spider-x: "/"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #21"
+  type: "vless"
+  server: "212.67.9.113"
+  port: 2200
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: false
+  ws-opts:
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA Selectel — #27"
+  type: "vless"
+  server: "213.219.212.24"
+  port: 443
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1F7\U0001F1FA Timeweb — #41"
+  type: "vless"
+  server: "78.159.245.32"
+  port: 443
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: true
+  servername: "furrycdn.net"
+  ws-opts:
+    path: "/api/v1/video-stream"
     headers:
-      Host: 'furrycdn.net'
-- name: '🇫🇷 France — #175'
-  type: 'vless'
-  server: '87.242.85.201'
+      Host: "furrycdn.net"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #23"
+  type: "vless"
+  server: "212.67.9.113"
+  port: 2200
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: false
+  ws-opts:
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #22"
+  type: "vless"
+  server: "212.67.9.113"
+  port: 2200
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: false
+  ws-opts:
+    path: "/v1"
+- name: "\U0001F1EB\U0001F1F7 France — #175"
+  type: "vless"
+  server: "87.242.85.201"
   port: 13561
-  uuid: '7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd'
+  uuid: "7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
+  network: "tcp"
   tls: false
-- name: '🇳🇱 The Netherlands — #125'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #15"
+  type: "vless"
+  server: "212.67.9.113"
+  port: 2200
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
+  network: "ws"
+  tls: false
   ws-opts:
-    path: '/api/v1/make-love-not-war'
+    path: "/v1"
+- name: "\U0001F1F3\U0001F1F1 The Netherlands — #125"
+  type: "vless"
+  server: "78.159.245.32"
+  port: 443
+  uuid: "2c634977-584e-4e1f-b501-1b70c77a6743"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: true
+  servername: "furrycdn.net"
+  client-fingerprint: "firefox"
+  ws-opts:
+    path: "/api/v1/make-love-not-war"
     headers:
-      Host: 'furrycdn.net'
-- name: '🇱🇹 Lithuania — #197'
-  type: 'vless'
-  server: '185.229.9.208'
+      Host: "furrycdn.net"
+- name: "\U0001F1F5\U0001F1F1 Poland — #237"
+  type: "vless"
+  server: "213.219.212.216"
   port: 443
-  uuid: '378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e'
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
   tls: true
-  servername: 'yandex.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'uqKo06QN98uCn95hbm3HhrMJTkS0tm3e6DZ7IDe1_gY'
-    short-id: 'd7b684f29aaea33a'
-    spider-x: '/'
-- name: '🇷🇺 Yandex — #8'
-  type: 'vless'
-  server: '62.152.59.193'
+  servername: "z3.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1F5\U0001F1F1 Poland — #238"
+  type: "vless"
+  server: "213.219.212.216"
   port: 443
-  uuid: 'efa7cb19-2845-4eb7-bcd7-e860a8a4628d'
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
   tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'firefox'
+  servername: "z6.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1F5\U0001F1F1 Poland — #239"
+  type: "vless"
+  server: "213.219.212.216"
+  port: 443
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
+  tls: true
+  servername: "z9.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1F7\U0001F1FA Yandex — #8"
+  type: "vless"
+  server: "62.152.59.193"
+  port: 443
+  uuid: "efa7cb19-2845-4eb7-bcd7-e860a8a4628d"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "max.ru"
+  client-fingerprint: "firefox"
   reality-opts:
-    public-key: 'pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU'
-    short-id: '2a552b0d4d15e0f7'
-- name: '🇷🇺 MegaMax Network — #36'
-  type: 'vless'
-  server: '212.67.9.113'
+    public-key: "pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU"
+    short-id: "2a552b0d4d15e0f7"
+- name: "\U0001F1F7\U0001F1FA Selectel — #40"
+  type: "vless"
+  server: "213.219.212.24"
+  port: 443
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+    spider-x: "/"
+- name: "\U0001F1F7\U0001F1FA Selectel — #41"
+  type: "vless"
+  server: "213.219.212.24"
+  port: 443
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1F7\U0001F1FA Selectel — #42"
+  type: "vless"
+  server: "213.219.212.24"
+  port: 443
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "edge"
+  reality-opts:
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1F7\U0001F1FA Selectel — #43"
+  type: "vless"
+  server: "213.219.212.24"
+  port: 443
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "chrome"
+  reality-opts:
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1F7\U0001F1FA Selectel — #39"
+  type: "vless"
+  server: "213.219.212.24"
+  port: 443
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "qq"
+  reality-opts:
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1F7\U0001F1FA Selectel — #37"
+  type: "vless"
+  server: "213.219.212.24"
+  port: 443
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "firefox"
+  reality-opts:
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #27"
+  type: "vless"
+  server: "212.67.9.113"
   port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇷🇺 Selectel — #40'
-  type: 'vless'
-  server: '213.219.212.24'
+    path: "/v1"
+- name: "\U0001F1F5\U0001F1F1 Poland — #236"
+  type: "vless"
+  server: "91.185.83.63"
   port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
   tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-    spider-x: '/'
-- name: '🇷🇺 Selectel — #41'
-  type: 'vless'
-  server: '213.219.212.24'
-  port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 Selectel — #42'
-  type: 'vless'
-  server: '213.219.212.24'
-  port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'edge'
-  reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 Selectel — #43'
-  type: 'vless'
-  server: '213.219.212.24'
-  port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'chrome'
-  reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 Selectel — #39'
-  type: 'vless'
-  server: '213.219.212.24'
-  port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 MegaMax Network — #34'
-  type: 'vless'
-  server: '212.67.9.113'
+  servername: "z.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #30"
+  type: "vless"
+  server: "212.67.9.113"
   port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇷🇺 MegaMax Network — #29'
-  type: 'vless'
-  server: '212.67.9.113'
-  port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA Selectel — #25"
+  type: "vless"
+  server: "213.219.212.24"
+  port: 443
+  uuid: "8bdaaef0-44b3-4f2f-8858-aa4d16a64e92"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "pro-ru-213.emrata.top"
+  client-fingerprint: "qq"
+  reality-opts:
+    public-key: "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #38"
+  type: "vless"
+  server: "212.67.9.113"
+  port: 2200
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇷🇺 Selectel — #37'
-  type: 'vless'
-  server: '213.219.212.24'
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA Timeweb — #50"
+  type: "vless"
+  server: "109.120.189.154"
   port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
+  uuid: "1db0a61e-05f5-43ad-870c-ceff6ce06939"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'firefox'
+  servername: "ads.x5.ru"
+  client-fingerprint: "firefox"
   reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 Timeweb — #60'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
-  ws-opts:
-    path: '/api/v1/video-stream'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇷🇺 MegaMax Network — #28'
-  type: 'vless'
-  server: '212.67.9.113'
+    public-key: "KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE"
+    short-id: "6aa44564cda562bc"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #33"
+  type: "vless"
+  server: "212.67.9.113"
   port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇱🇹 Lithuania — #207'
-  type: 'vless'
-  server: '84.201.176.179'
-  port: 443
-  uuid: '378948f5-7e17-41a3-b0a6-2a5d3e3c0a2e'
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA SpaceWeb Hosting provider — #39"
+  type: "vless"
+  server: "168.222.140.204"
+  port: 4100
+  uuid: "155e8dd4-a559-407a-9ea8-13a5e829f066"
   udp: true
   skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'max.ru'
-  client-fingerprint: 'firefox'
-  reality-opts:
-    public-key: 'wi0mLRyP_rX2sM_uqvDeILAN7_2mDnZ4DmAlC4okjXQ'
-    short-id: 'ce1ad22ee3205e62'
-    spider-x: '/'
-- name: '🇷🇺 Timeweb — #42'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
-  ws-opts:
-    path: '/api/v1/video-stream'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇷🇺 Selectel — #25'
-  type: 'vless'
-  server: '213.219.212.24'
-  port: 443
-  uuid: '8bdaaef0-44b3-4f2f-8858-aa4d16a64e92'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'pro-ru-213.emrata.top'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk'
-- name: '🇷🇺 MegaMax Network — #31'
-  type: 'vless'
-  server: '212.67.9.113'
-  port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #41'
-  type: 'vless'
-  server: '188.68.218.101'
-  port: 443
-  uuid: '5238521b-c5dd-42af-870e-c174a2aaaafe'
-  udp: true
-  skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'cloud.mail.ru'
-  client-fingerprint: 'qq'
-  reality-opts:
-    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
-- name: '🇷🇺 MegaMax Network — #38'
-  type: 'vless'
-  server: '212.67.9.113'
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #24"
+  type: "vless"
+  server: "212.67.9.113"
   port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇷🇺 Timeweb — #56'
-  type: 'vless'
-  server: '78.159.245.32'
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA Yakovlev Denis Alexandrovich — #30"
+  type: "vless"
+  server: "188.68.218.101"
   port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
+  uuid: "5238521b-c5dd-42af-870e-c174a2aaaafe"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
-  ws-opts:
-    path: '/api/v1/video-stream'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇷🇺 Timeweb — #50'
-  type: 'vless'
-  server: '109.120.189.154'
-  port: 443
-  uuid: '1db0a61e-05f5-43ad-870c-ceff6ce06939'
-  udp: true
-  skip-cert-verify: true
-  network: 'raw'
-  flow: 'xtls-rprx-vision'
-  tls: true
-  servername: 'ads.x5.ru'
-  client-fingerprint: 'firefox'
+  servername: "cloud.mail.ru"
+  client-fingerprint: "firefox"
   reality-opts:
-    public-key: 'KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE'
-    short-id: '6aa44564cda562bc'
-- name: '🇷🇺 Yakovlev Denis Alexandrovich — #53'
-  type: 'vless'
-  server: '188.68.218.101'
+    public-key: "A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0"
+- name: "\U0001F1F5\U0001F1F1 Poland — #235"
+  type: "vless"
+  server: "213.219.212.216"
   port: 443
-  uuid: '5238521b-c5dd-42af-870e-c174a2aaaafe'
+  uuid: "ef06b7cf-4a97-41d7-b984-738a8a649151"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "http/1.1"
   tls: true
-  servername: 'cloud.mail.ru'
-  client-fingerprint: 'firefox'
+  servername: "z7.nnmm.me"
+  client-fingerprint: "random"
+- name: "\U0001F1E6\U0001F1F2 Armenia — #52"
+  type: "vless"
+  server: "91.185.83.102"
+  port: 443
+  uuid: "69668dc6-b5de-42ff-af0a-c7a43ec29183"
+  udp: true
+  skip-cert-verify: true
+  network: "grpc"
+  tls: true
+  servername: "gentoo.ubuntuhosting.host"
+  client-fingerprint: "edge"
   reality-opts:
-    public-key: 'A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0'
-- name: '🇷🇺 Timeweb — #16'
-  type: 'vless'
-  server: '78.159.245.32'
-  port: 443
-  uuid: '2c634977-584e-4e1f-b501-1b70c77a6743'
-  udp: true
-  skip-cert-verify: true
-  network: 'ws'
-  tls: true
-  servername: 'furrycdn.net'
-  client-fingerprint: 'firefox'
-  ws-opts:
-    path: '/api/v1/video-stream'
-    headers:
-      Host: 'furrycdn.net'
-- name: '🇦🇲 Armenia — #52'
-  type: 'vless'
-  server: '91.185.83.102'
-  port: 443
-  uuid: '69668dc6-b5de-42ff-af0a-c7a43ec29183'
-  udp: true
-  skip-cert-verify: true
-  network: 'grpc'
-  tls: true
-  servername: 'gentoo.ubuntuhosting.host'
-  client-fingerprint: 'edge'
-  reality-opts:
-    public-key: '4Aj0KdIO7gK-KyX6oBzSic_oIr2ooDXtcHKB05qTrEI'
-    short-id: '5e2c02eb05'
+    public-key: "4Aj0KdIO7gK-KyX6oBzSic_oIr2ooDXtcHKB05qTrEI"
+    short-id: "5e2c02eb05"
   grpc-opts:
-    grpc-service-name: 'gun'
-- name: '🇦🇲 Armenia — #49'
-  type: 'vless'
-  server: '91.185.83.102'
+    grpc-service-name: "gun"
+- name: "\U0001F1E6\U0001F1F2 Armenia — #49"
+  type: "vless"
+  server: "91.185.83.102"
   port: 443
-  uuid: '69668dc6-b5de-42ff-af0a-c7a43ec29183'
+  uuid: "69668dc6-b5de-42ff-af0a-c7a43ec29183"
   udp: true
   skip-cert-verify: true
-  network: 'grpc'
+  network: "grpc"
   tls: true
-  servername: 'gentoo.ubuntuhosting.host'
-  client-fingerprint: 'edge'
+  servername: "gentoo.ubuntuhosting.host"
+  client-fingerprint: "edge"
   reality-opts:
-    public-key: '4Aj0KdIO7gK-KyX6oBzSic_oIr2ooDXtcHKB05qTrEI'
-    short-id: '5e2c02eb05'
+    public-key: "4Aj0KdIO7gK-KyX6oBzSic_oIr2ooDXtcHKB05qTrEI"
+    short-id: "5e2c02eb05"
   grpc-opts:
-    grpc-service-name: 'gun'
-- name: '🇷🇺 MegaMax Network — #11'
-  type: 'vless'
-  server: '212.67.9.113'
+    grpc-service-name: "gun"
+- name: "\U0001F1F7\U0001F1FA MegaMax Network — #11"
+  type: "vless"
+  server: "212.67.9.113"
   port: 2200
-  uuid: '2aa7f4b1-e859-46d0-b8ac-8587811ab7b1'
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
   udp: true
   skip-cert-verify: true
-  network: 'ws'
+  network: "ws"
   tls: false
   ws-opts:
-    path: '/v1'
-- name: '🇷🇺 FDCservers.net — #13'
-  type: 'vless'
-  server: '66.90.90.20'
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #13"
+  type: "vless"
+  server: "66.90.90.20"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'randomized'
-- name: '🇷🇺 FDCservers.net — #14'
-  type: 'vless'
-  server: '66.90.90.20'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "randomized"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #14"
+  type: "vless"
+  server: "66.90.90.20"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision-udp443'
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'ios'
-- name: '🇷🇺 FDCservers.net — #15'
-  type: 'vless'
-  server: '66.90.90.13'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "ios"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #15"
+  type: "vless"
+  server: "66.90.90.13"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'chrome'
-- name: '🇷🇺 FDCservers.net — #16'
-  type: 'vless'
-  server: '66.90.90.164'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "chrome"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #16"
+  type: "vless"
+  server: "66.90.90.164"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision-udp443'
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'ios'
-- name: '🇷🇺 FDCservers.net — #17'
-  type: 'vless'
-  server: '66.90.90.164'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "ios"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #17"
+  type: "vless"
+  server: "66.90.90.164"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'chrome'
-- name: '🇷🇺 FDCservers.net — #11'
-  type: 'vless'
-  server: '66.90.90.164'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "chrome"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #18"
+  type: "vless"
+  server: "66.90.90.20"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "h2"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'chrome'
-- name: '🇷🇺 FDCservers.net — #29'
-  type: 'vless'
-  server: '66.90.90.164'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "safari"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #19"
+  type: "vless"
+  server: "66.90.90.164"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'firefox'
-- name: '🇷🇺 FDCservers.net — #30'
-  type: 'vless'
-  server: '66.90.90.164'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "ios"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #20"
+  type: "vless"
+  server: "66.90.90.20"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision-udp443'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'safari'
-- name: '🇷🇺 FDCservers.net — #31'
-  type: 'vless'
-  server: '66.90.90.13'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "chrome"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #21"
+  type: "vless"
+  server: "66.90.90.164"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
+  alpn:
+  - "h2"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'qq'
-- name: '🇷🇺 FDCservers.net — #32'
-  type: 'vless'
-  server: '66.90.90.13'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "safari"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #22"
+  type: "vless"
+  server: "66.90.90.13"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  network: "tcp"
+  flow: "xtls-rprx-vision"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'firefox'
-- name: '🇷🇺 FDCservers.net — #33'
-  type: 'vless'
-  server: '66.90.90.20'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "safari"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #23"
+  type: "vless"
+  server: "66.90.90.13"
   port: 8443
-  uuid: '6f98a077-004e-4b86-8b78-8d09308d3868'
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
   udp: true
   skip-cert-verify: true
-  network: 'tcp'
-  flow: 'xtls-rprx-vision-udp443'
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
   tls: true
-  servername: 'ai-6a607097.noooo.win'
-  client-fingerprint: 'randomized'
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "chrome"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #24"
+  type: "vless"
+  server: "66.90.90.20"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
+  alpn:
+  - "h2"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "ios"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #11"
+  type: "vless"
+  server: "66.90.90.164"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "chrome"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #25"
+  type: "vless"
+  server: "66.90.90.20"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  alpn:
+  - "h2"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "qq"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #26"
+  type: "vless"
+  server: "66.90.90.164"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "safari"
+- name: "\U0001F1F7\U0001F1FA SpaceWeb — #45"
+  type: "vless"
+  server: "77.222.46.162"
+  port: 2200
+  uuid: "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
+  udp: true
+  skip-cert-verify: true
+  network: "ws"
+  tls: false
+  ws-opts:
+    path: "/v1"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #27"
+  type: "vless"
+  server: "66.90.90.20"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "qq"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #28"
+  type: "vless"
+  server: "66.90.90.164"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "firefox"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #29"
+  type: "vless"
+  server: "66.90.90.164"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "firefox"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #30"
+  type: "vless"
+  server: "66.90.90.164"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "safari"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #31"
+  type: "vless"
+  server: "66.90.90.13"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "qq"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #32"
+  type: "vless"
+  server: "66.90.90.13"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "firefox"
+- name: "\U0001F1F7\U0001F1FA FDCservers.net — #33"
+  type: "vless"
+  server: "66.90.90.20"
+  port: 8443
+  uuid: "6f98a077-004e-4b86-8b78-8d09308d3868"
+  udp: true
+  skip-cert-verify: true
+  network: "tcp"
+  flow: "xtls-rprx-vision-udp443"
+  tls: true
+  servername: "ai-6a607097.noooo.win"
+  client-fingerprint: "randomized"
